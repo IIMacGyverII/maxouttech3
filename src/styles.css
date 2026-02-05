@@ -492,6 +492,27 @@ main {
   margin: 0 0 8px;
 }
 
+.doc-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.doc-link {
+  display: inline-flex;
+  gap: 8px;
+  color: #1a4bff;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.doc-link:hover {
+  text-decoration: underline;
+}
+
 .site-footer {
   background: #0b1220;
   color: #d6deef;
