@@ -1,4 +1,4 @@
-import smokeCoImage from '../assets/images/ror_web.jpg'
+import smokeCoImage from '../assets/images/smoke.webp'
 import doorExtendedImage from '../assets/images/door.jpg'
 import tamperImage from '../assets/images/3__ crow bar-crop-u1298.jpg'
 import extremeImage from '../assets/images/extreme sensor.jpg'

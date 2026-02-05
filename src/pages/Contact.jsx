@@ -14,12 +14,12 @@ function Contact() {
               <div className="contact-card">
                 <p className="contact-title">Sales</p>
                 <p className="contact-text">sales@maxouttech.com</p>
-                <p className="contact-text">+1 (800) 000-0000</p>
+                <p className="contact-text">+1 (763) 497-1059</p>
               </div>
               <div className="contact-card">
                 <p className="contact-title">Support</p>
                 <p className="contact-text">support@maxouttech.com</p>
-                <p className="contact-text">+1 (800) 000-0001</p>
+                <p className="contact-text">+1 (763) 497-1059</p>
               </div>
             </div>
           </div>

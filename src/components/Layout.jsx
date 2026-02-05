@@ -60,7 +60,7 @@ function Layout() {
           </div>
           <div>
             <p className="footer-title">Location</p>
-            <p className="footer-text">Texas, USA</p>
+            <p className="footer-text">Saint Michael, MN, United States of America</p>
           </div>
         </div>
       </footer>
