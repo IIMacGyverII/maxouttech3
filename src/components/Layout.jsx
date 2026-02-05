@@ -20,7 +20,7 @@ function Layout() {
           <div className="brand">
             <img className="brand-mark" src={logo} alt="Maxouttech" />
             <div>
-              <p className="brand-title">Maxouttech</p>
+              <p className="brand-title">Maxout Technologies</p>
               <p className="brand-subtitle">Wireless Security & Life Safety</p>
             </div>
           </div>
