@@ -55,8 +55,14 @@ function Layout() {
           </div>
           <div>
             <p className="footer-title">Contact</p>
-            <p className="footer-text">Sales: sales@maxouttech.com</p>
-            <p className="footer-text">Support: support@maxouttech.com</p>
+            <p className="footer-text">
+              Sales:{' '}
+              <a href="mailto:sales@maxouttech.com">sales@maxouttech.com</a>
+            </p>
+            <p className="footer-text">
+              Support:{' '}
+              <a href="mailto:support@maxouttech.com">support@maxouttech.com</a>
+            </p>
           </div>
           <div>
             <p className="footer-title">Location</p>
