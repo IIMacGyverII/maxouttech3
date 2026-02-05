@@ -27,24 +27,39 @@ function Contact() {
               </div>
             </div>
           </div>
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            action="mailto:Info@MaxOutTech.com"
+            method="post"
+            encType="text/plain"
+          >
             <label>
               Name
-              <input type="text" placeholder="Your name" />
+              <input name="Name" type="text" placeholder="Your name" required />
             </label>
             <label>
               Company
-              <input type="text" placeholder="Company name" />
+              <input name="Company" type="text" placeholder="Company name" />
             </label>
             <label>
               Email
-              <input type="email" placeholder="you@company.com" />
+              <input
+                name="Email"
+                type="email"
+                placeholder="you@company.com"
+                required
+              />
             </label>
             <label>
               Message
-              <textarea rows="4" placeholder="How can we help?" />
+              <textarea
+                name="Message"
+                rows="4"
+                placeholder="How can we help?"
+                required
+              />
             </label>
-            <button className="button primary" type="button">
+            <button className="button primary" type="submit">
               Send message
             </button>
           </form>

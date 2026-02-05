@@ -21,17 +21,6 @@ const overviewItems = [
   },
 ]
 
-const additionalLinks = [
-  { label: 'Home', to: '/' },
-  { label: 'About', to: '/about' },
-  { label: 'Wireless Security', to: '/wireless-security' },
-  { label: 'Products', to: '/products' },
-  { label: 'Where to Buy', to: '/where-to-buy' },
-  { label: 'Documentation', to: '/documentation' },
-  { label: 'Line Card', to: '/line-card' },
-  { label: 'Contact', to: '/contact' },
-]
-
 function LineCard() {
   return (
     <div className="page">
@@ -99,33 +88,7 @@ function LineCard() {
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <div className="section-head">
-            <div>
-              <p className="eyebrow">Additional links</p>
-              <h2>Explore more.</h2>
-            </div>
-          </div>
-          <div className="resource-grid">
-            {additionalLinks.map((item) => (
-              <Link key={item.to} to={item.to} className="resource-card">
-                <h3>{item.label}</h3>
-                <p>Learn more about {item.label.toLowerCase()}.</p>
-              </Link>
-            ))}
-            <div className="resource-card">
-              <h3>Contact</h3>
-              <p>12075 43rd Street NE, Suite 500, St. Michael, MN 55376</p>
-              <p>
-                <a href="mailto:Info@MaxOutTech.com">Info@MaxOutTech.com</a>
-                <br />
-                763-497-1059
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </div>
   )
 }
