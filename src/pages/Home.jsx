@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { products } from '../data/products'
-import heroImage from '../assets/images/46__house line art.jpg'
+import heroImage from '../assets/images/total coverage.webp'
 
 const highlights = [
   {

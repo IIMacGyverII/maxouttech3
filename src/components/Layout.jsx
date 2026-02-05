@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import logo from '../assets/images/maxout_logo.jpg'
+import cinchMaxoutBadge from '../assets/images/CinchMaxout20year.webp'
 
 const navItems = [
   { to: '/', label: 'Home' },
@@ -23,6 +24,11 @@ function Layout() {
               <p className="brand-title">Maxout Technologies</p>
               <p className="brand-subtitle">Wireless Security & Life Safety</p>
             </div>
+            <img
+              className="brand-badge"
+              src={cinchMaxoutBadge}
+              alt="Cinch Maxout 20 year"
+            />
           </div>
           <nav className="site-nav">
             {navItems.map((item) => (
