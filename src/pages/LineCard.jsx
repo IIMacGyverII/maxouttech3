@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import lineCardHero from '../assets/images/47__small commercial store.jpg'
+import lineCardHero from '../assets/images/linecardvideo.webp'
 import lineCardPdf from '../assets/pdfs/line-card-8_1_25.pdf'
 
 const overviewItems = [
