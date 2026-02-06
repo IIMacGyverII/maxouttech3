@@ -76,7 +76,8 @@ function About() {
             <p>
               Phone: 763-497-1059
               <br />
-              Email: info@maxouttech.com
+              Email:{' '}
+              <a href="mailto:info@maxouttech.com">info@maxouttech.com</a>
               <br />
               Website: www.maxouttech.com
             </p>
