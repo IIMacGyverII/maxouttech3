@@ -24,14 +24,14 @@ const channels = [
 
 const partnerCards = [
   {
-    name: 'Security Data Supply',
-    image: securityDataSupplyLogo,
-    href: 'https://securitydatasupply.com/',
+    name: 'Alarmax',
+    image: alarmaxLogo,
+    href: 'https://www.alarmax.com/',
   },
   {
-    name: 'Wesco',
-    image: wescoLogo,
-    href: 'https://www.wesco.com/',
+    name: 'Alarm Parts Depot',
+    image: maxoutLogo,
+    href: 'https://apdlink.com/',
   },
   {
     name: 'Lone Star',
@@ -44,14 +44,14 @@ const partnerCards = [
     href: 'https://shop.ssandsi.com/',
   },
   {
-    name: 'Alarm Parts Depot',
-    image: maxoutLogo,
-    href: 'https://apdlink.com/',
+    name: 'Security Data Supply',
+    image: securityDataSupplyLogo,
+    href: 'https://securitydatasupply.com/',
   },
   {
-    name: 'Alarmax',
-    image: alarmaxLogo,
-    href: 'https://www.alarmax.com/',
+    name: 'Wesco',
+    image: wescoLogo,
+    href: 'https://www.wesco.com/',
   },
 ]
 

@@ -19,7 +19,7 @@ function Layout() {
       <header className="site-header">
         <div className="container header-inner">
           <div className="brand">
-            <img className="brand-mark" src={logo} alt="Maxouttech" />
+            <img className="brand-mark" src={logo} alt="MaxOut Technologies" />
             <div>
               <p className="brand-title">MaxOut Technologies</p>
               <p className="brand-subtitle">Wireless Security & Life Safety</p>
@@ -27,7 +27,7 @@ function Layout() {
             <img
               className="brand-badge"
               src={cinchMaxoutBadge}
-              alt="Cinch Maxout 20 year"
+              alt="Cinch MaxOut 20-year"
             />
           </div>
           <nav className="site-nav">
@@ -47,7 +47,7 @@ function Layout() {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
-            <p className="footer-title">Maxouttech</p>
+            <p className="footer-title">MaxOut Technologies</p>
             <p className="footer-text">
               High-performance wireless sensors, life safety devices, and control
               solutions for residential and commercial environments.

@@ -9,7 +9,7 @@ function Products() {
           <p className="eyebrow">Product catalog</p>
           <h1>Wireless sensors & life safety</h1>
           <p className="lead">
-            Discover the full Maxouttech lineup built for reliability, long
+            Discover the full MaxOut Technologies lineup built for reliability, long
             battery life, and fast deployments.
           </p>
         </div>

@@ -4,7 +4,7 @@ function About() {
       <section className="section">
         <div className="container">
           <div>
-            <p className="eyebrow">About Maxouttech</p>
+            <p className="eyebrow">About MaxOut Technologies</p>
             <h1>MaxOut™ Technology</h1>
             <p className="lead">
               MaxOut™ Technology is a trusted innovator in wireless security and

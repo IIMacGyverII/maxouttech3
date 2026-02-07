@@ -26,7 +26,7 @@ function Home() {
             <p className="eyebrow">Wireless Security Platform</p>
             <h1>Modern protection for people and property.</h1>
             <p className="lead">
-              Maxouttech delivers wireless sensors and life safety devices that
+              MaxOut Technologies delivers wireless sensors and life safety devices that
               integrate seamlessly with today’s security systems.
             </p>
             <div className="hero-actions">
