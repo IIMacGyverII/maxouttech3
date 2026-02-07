@@ -1,18 +1,33 @@
+import cinchMaxoutBadge from '../assets/images/CinchMaxout20year.webp'
+
 function Anniversary() {
   return (
     <div className="page">
       <section className="section">
         <div className="container">
-          <h1>Celebrating 20 Years of Innovation: Cinch Systems and MaxOut Technologies</h1>
-          <p className="lead">
-            February 2026 – As we mark this milestone in 2026, Cinch Systems and
-            MaxOut Technologies are thrilled to celebrate 20 years of pioneering
-            advancements in high-security and life-safety solutions. From our
-            roots in St. Michael, Minnesota, we've grown into trusted leaders in
-            the security industry, delivering cutting-edge products that protect
-            government facilities, critical infrastructure, and everyday homes
-            and businesses.
-          </p>
+          <div className="detail-grid" style={{ alignItems: 'start' }}>
+            <div>
+              <h1>
+                Celebrating 20 Years of Innovation: Cinch Systems and MaxOut
+                Technologies
+              </h1>
+              <p className="lead">
+                February 2026 – As we mark this milestone in 2026, Cinch Systems
+                and MaxOut Technologies are thrilled to celebrate 20 years of
+                pioneering advancements in high-security and life-safety
+                solutions. From our roots in St. Michael, Minnesota, we've grown
+                into trusted leaders in the security industry, delivering
+                cutting-edge products that protect government facilities,
+                critical infrastructure, and everyday homes and businesses.
+              </p>
+            </div>
+            <div className="detail-media">
+              <img
+                src={cinchMaxoutBadge}
+                alt="Cinch Systems and MaxOut Technologies 20-year anniversary"
+              />
+            </div>
+          </div>
 
           <h2>A Legacy of Excellence in Security</h2>
           <p>
