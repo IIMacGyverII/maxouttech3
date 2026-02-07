@@ -1,7 +1,18 @@
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { products } from '../data/products'
 
 function Products() {
+  const [searchParams] = useSearchParams()
+  const searchQuery = (searchParams.get('search') || '').trim().toLowerCase()
+  const filteredProducts = searchQuery
+    ? products.filter((product) =>
+        [product.name, product.summary, product.category, product.slug]
+          .join(' ')
+          .toLowerCase()
+          .includes(searchQuery),
+      )
+    : products
+
   return (
     <div className="page">
       <section className="section">
@@ -16,21 +27,30 @@ function Products() {
       </section>
 
       <section className="section section-muted">
-        <div className="container product-grid">
-          {products.map((product) => (
-            <Link
-              className="product-card"
-              key={product.slug}
-              to={`/products/${product.slug}`}
-            >
-              <img src={product.image} alt={product.name} />
-              <div>
-                <p className="product-title">{product.name}</p>
-                <p className="product-text">{product.summary}</p>
-                <span className="product-tag">{product.category}</span>
-              </div>
-            </Link>
-          ))}
+        <div className="container">
+          {filteredProducts.length === 0 ? (
+            <div className="empty-state">
+              <h3>No products found</h3>
+              <p>Try a different search term.</p>
+            </div>
+          ) : (
+            <div className="product-grid">
+              {filteredProducts.map((product) => (
+                <Link
+                  className="product-card"
+                  key={product.slug}
+                  to={`/products/${product.slug}`}
+                >
+                  <img src={product.image} alt={product.name} />
+                  <div>
+                    <p className="product-title">{product.name}</p>
+                    <p className="product-text">{product.summary}</p>
+                    <span className="product-tag">{product.category}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </section>
     </div>
