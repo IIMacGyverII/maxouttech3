@@ -74,7 +74,7 @@ function About() {
             </p>
             <h2>Contact</h2>
             <p>
-              Phone: 763-497-1059
+              Phone: <a href="tel:+17634971059">763-497-1059</a>
               <br />
               Email:{' '}
               <a href="mailto:info@maxouttech.com">info@maxouttech.com</a>

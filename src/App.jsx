@@ -1,6 +1,7 @@
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import About from './pages/About'
+import Anniversary from './pages/Anniversary'
 import Contact from './pages/Contact'
 import Documentation from './pages/Documentation'
 import Home from './pages/Home'
@@ -31,6 +32,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/products/:slug" element={<ProductDetail />} />
           <Route path="/about" element={<About />} />
+          <Route path="/anniversary" element={<Anniversary />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/documentation" element={<Documentation />} />
           <Route path="/wireless-security" element={<WirelessSecurity />} />

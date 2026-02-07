@@ -78,7 +78,7 @@ function LineCard() {
             <div>
               <h3>Wireless security sensing products for professionals.</h3>
               <p className="lead">
-                Call 763-497-1059 or connect with an authorized distributor.
+                Call <a href="tel:+17634971059">763-497-1059</a> or connect with an authorized distributor.
               </p>
             </div>
             <Link className="button ghost" to="/where-to-buy">
