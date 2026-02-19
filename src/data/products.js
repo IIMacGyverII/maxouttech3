@@ -25,19 +25,19 @@ const products = [
 
 New, high–powered Microchip delivers exceptional range; 360° with no "dead spots" or signal drop-offs. Patented design with an isolated antenna 1/8" above board and separated from batteries for superior RF performance and transmission efficiency. Substantially reduced interference from metal door and window frames. Reduced battery energy draw—lengthens the battery life.
 
-**Features:**
-- Signals: supervisory, tamper, and low battery
-- Dual tamper; sensor and case for added security
-- Effective with vertical or horizontal mount
-- Replaceable extra long-life batteries: 2-3VDC lithium coin-cell
-- Smaller and narrow switch package
-- Superior RF range and performance, even on steel surfaces
+Features:
+• Signals: supervisory, tamper, and low battery
+• Dual tamper; sensor and case for added security
+• Effective with vertical or horizontal mount
+• Replaceable extra long-life batteries: 2-3VDC lithium coin-cell
+• Smaller and narrow switch package
+• Superior RF range and performance, even on steel surfaces
 
-**Compatibility and Part Numbers:**
-- **RF-CMDWS-319-NN:** 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
-- **RF-CMDWS-345-NN:** 345 MHz. Honeywell® and 2GIG®
-- **RF-CMDWS-433-D-NN:** 433 MHz. DSC®
-- **CEA-RF-CMDWS-ENC-BRN-KIT:** Brown sensor and magnet cover kit contains 5 each, brown: sensor covers, sensor bases, magnet cover and magnet bases.`,
+Compatibility and Part Numbers:
+• RF-CMDWS-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-CMDWS-345-NN: 345 MHz. Honeywell® and 2GIG®
+• RF-CMDWS-433-D-NN: 433 MHz. DSC®
+• CEA-RF-CMDWS-ENC-BRN-KIT: Brown sensor and magnet cover kit contains 5 each, brown: sensor covers, sensor bases, magnet cover and magnet bases.`,
   },
   {
     slug: 'recessed-doorwindow-sensor---wireless',
@@ -45,6 +45,20 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: 'Hidden contact for clean installations.',
     image: recessedDoorImage,
     category: 'Perimeter',
+    description: `The Recessed Door/Window Sensor is a supervised, wireless sensor that detects the opening and closing of doors or windows.
+
+New, high–powered Microchip delivers exceptional range; no "dead spots" or signal drop-offs. Isolated spiral antenna provides much greater RF surface area to improve range. The antenna is mounted above the board and separated from batteries for contributing to the superior RF performance and transmission efficiency. Reduced battery energy draw—lengthens the battery life.
+
+Features:
+• Signals: supervisory, tamper, and low battery
+• Tamper for added security
+• Effective with vertical or horizontal mount
+• Replaceable 3VDC lithium battery with exceptional long life
+• Superior RF range and performance, even on steel surfaces
+
+Compatibility and Part Numbers:
+• RF-RDWS-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-RDWS-345-NN: 345 MHz. Honeywell® and 2GIG®`,
   },
   {
     slug: 'total-window-sensor---wireless',
@@ -52,6 +66,21 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: 'Multi-function window protection with shock detection.',
     image: totalWindowImage,
     category: 'Perimeter',
+    description: `A window sensor is great at detecting and sending an alarm signal when a contact is opened. ......but what if entry is made through smashing the window? The intruder is in the house - with no alarm signal!
+
+The Wireless TOTAL Window Sensor™ provides complete intrusion protection for windows. It detects both a contact opening and window impact or breaking glass. The sensor contains a reed switch for openings and a tiny piezo detection device that detects vibrations and impact when mounted on a window frame. The detection circuit can be adjusted during installation to ensure TOTAL protection with the proper sensitivity.
+
+Features:
+• LED activates on impact activation and goes out on restore
+• Adjustable potentiometer for impact/shock sensitivity
+• Effective with vertical or horizontal mount
+• Replaceable extra long-life batteries: 2-3VDC lithium coin cell
+• Small and narrow switch package
+• Superior RF performance, even on steel surfaces
+
+Compatibility and Part Numbers:
+• RF-SHK-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-SHK-345-NN: 345 MHz. Honeywell® and 2GIG®`,
   },
   {
     slug: 'doorwindow-sensor,-extended',
@@ -59,6 +88,22 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: 'Long-range magnetic contact for perimeter protection.',
     image: doorExtendedImage,
     category: 'Perimeter',
+    description: `The Mini Door/Window Sensor with Extended/External Contact is a supervised, wireless sensor that detects the opening and closing of doors or windows. When activated, the sensor transmits an open (trip) or close (restore) signal to the panel. These are the signals the unit provides: supervisory, tamper and low battery (as needed). An external contact can be connected to the transmitter by feeding contact wiring through the housing.
+
+New, high–powered microchip delivers exceptional range; 360° with no dead spots or signal drop-offs. Patented design with an isolated antenna 1/8" above board and separated from batteries for superior RF performance and transmission efficiency. Reduced interference from metal door and window frames. Reduced battery energy draw lengthens the battery life.
+
+Features:
+• Option for wired external contact
+• Signals: supervisory, tamper, and low battery
+• Dual tamper; sensor and case for added security
+• Effective with vertical or horizontal mount
+• Replaceable extra long-life batteries: 2-3VDC lithium coin-cell
+• Smaller and narrow switch package
+• Superior RF range and performance, even on steel surfaces
+
+Compatibility and Part Numbers:
+• RF-CMDWSX-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-CMDWSX-345-NN: 345 MHz. Honeywell® and 2GIG®`,
   },
   {
     slug: 'extreme-sensor---wireless',
@@ -66,6 +111,29 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: 'Rugged sensor built for harsh environments.',
     image: extremeImage,
     category: 'Industrial',
+    description: `The Extreme Sensor is a supervised, wireless sensor that detects the opening and closing of doors, window, gates, garage doors, etc. in extreme environment. –32°F (-35.6°C) to 120°F (49°C).
+
+Developed and tested in Minnesota, US in extreme cold. Flawless RF transmission during one of the coldest weeks in Minnesota in 22 years (1/25/19-2/1/19), –32°F, with wind-chill temperatures down to –60°F! The unique design allows mounting the device outdoors with wood screws, plastic zip-ties or a combination of both. Powered by two extra long-life batteries. Available in 319.5 or 345 MHz frequencies.
+
+Features:
+• Rugged design to withstand outdoor application
+• Small in size; 1/2 the size of other outdoor door and gate sensors
+• Very small footprint. Sensor: 3.39"L x 1.34" W x .79" H. Magnet: 3"L x 1" W x .8" H
+• Maximum magnet gap: 1.75"
+• Mounting with screws, zip-type plastic straps or use both
+• Operating temperature: -32 to 140°F (-35 to 60°C)
+• 2 extra long-life batteries
+
+Applications:
+• Fences • Porches • Unheated Enclosed Areas • Doors • Storage Areas • Garages and Garage Doors • Windows • Hot Tub Buildings • Barns, Sheds, and Out Buildings • Gates • Pool Areas and Buildings • High Humidity and Wet Environment
+
+Regulatory:
+• FCC
+• IC
+
+Part Numbers and Compatibility:
+• RF-CMDWS-OD-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-CMDWS-OD-345-NN: 345 MHz. Honeywell®, 2GIG®`,
   },
   {
     slug: 'motion-detector,-wall-mounted-pir---wireless',
@@ -73,6 +141,22 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: 'Focused PIR coverage for interior spaces.',
     image: wallMotionImage,
     category: 'Detection',
+    description: `A motion sensor (passive-infrared or PIR) detects movement within a specific area by sensing the infrared energy emitted from a body as it moves across the sensor's field of view. When this motion is detected, the sensor transmits an alarm signal to the control panel. Use the motion sensor to protect locations where door/window sensors are impractical, not needed and for dual protection.
+
+Features:
+• Selectable sensitivity
+• Pet immunity
+• Signals: supervisory, tamper, and low battery
+• Dual tamper; detector and case for added security
+• Effective with wall or corner mount
+• Replaceable extra long-life batteries: 1-CR123 lithium used for 319 and 345 MHz, 2-CR123 lithium used for 433 MHz
+• Superior RF range and performance
+• Compact size; 3.2 x 2.4 x 1.7 inches (319 and 345 MHz), 3-3/8 x 2-3/8 x 1-5/8 inches (433 MHz)
+
+Compatibility and Part Numbers:
+• RF-ARPIR-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-ARPIR-345-NN: 345 MHz. Honeywell® and 2GIG®
+• RF-PIR-433-D-NN: 433 MHz. DSC®`,
   },
   {
     slug: 'motion-detector-pir-433-mhz---wireless',
@@ -87,6 +171,33 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: '360° coverage with reliable PIR detection.',
     image: ceilingMotionImage,
     category: 'Detection',
+    description: `The RF-CPIR (Ceiling-Mounted PIR) is a 360 degree passive infrared motion detector designed for ceiling mount applications.
+
+Features:
+• Three minute motion lock-out to conserve battery life
+• LED—lights on motion for easy set-up and testing
+• The compact design allows for an easy installation
+• Dimensions 2.95" diameter x 1.39" H
+• Two sensitivity settings also provides for different types for environments and detection
+• The motion detector is designed for a ceiling mount application and provides 360 degrees of detection range
+• Patented antenna design. Maximizes signal transmission strength with the maximum FCC allowable transmission output. More output for greater RF range
+• High-tension battery holder design ensure maximum power transfer to extend battery life
+• Two battery design vs. one in competitive detectors. Delivers more than double battery life
+• Easy to install. Easy to "Learn" into: 319.5 MHz control panels; UTC® Interlogix, GE®, and Qolsys®
+
+The coverage pattern is dependent on the mounting height of the detector, areas cans be masked off to prevent unwanted detection.
+
+Mounting Height / Detection Area:
+• 8' → 20'
+• 10' → 30'
+• 12' → 45'
+
+Regulatory:
+• FCC
+• IC
+
+Part Numbers and Compatibility:
+• RF-CPIR-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®`,
   },
   {
     slug: 'glass-break-detector--wireless',
@@ -94,6 +205,19 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: 'Audio pattern recognition for rapid glass break alerts.',
     image: glassBreakImage,
     category: 'Perimeter',
+    description: `The Wireless Glass Break Detector is used to detect breaking glass that may result in entry - sending an alarm to the control panel. A red LED light is used to convey messages on detector status. Powered is supplied by two long-life replaceable 3-VDC, Lithium batteries.
+
+Features:
+• Selectable sensitivity
+• Test mode
+• Signals: supervisory, tamper, and low battery
+• Tamper for added security
+• Two Replaceable extra long-life CR123 lithium batteries
+• Superior RF range and performance
+• Compact size; 3.8 x 2.75 x .8 inches
+
+Compatibility and Part Numbers:
+• RF-ARGB-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®`,
   },
   {
     slug: 'rate-of-rise-heat-detector---wireless',
@@ -101,6 +225,24 @@ New, high–powered Microchip delivers exceptional range; 360° with no "dead sp
     summary: 'Monitors rapid temperature changes for early alerts.',
     image: heatDetectorImage,
     category: 'Life Safety',
+    description: `The RF-ROR series (Radio Frequency Rate-of-Rise) and the hardwire version of wireless heat detectors use electronic processing to detect and report rising heat conditions. The micro-processor trips the on-board transmitter when the temperature at the detector location reaches a selectable fixed temperature of 135°F (57°C) or 200°F (93°C).
+
+Features:
+• Automatic reset after sensors cools
+• Ceiling mount-small Footprint
+• Tamper
+• Extra long-life battery
+• Selectable temperature, 135°F (57°C) or 200°F (93°C)
+
+Regulatory:
+• UL 521-Heat detectors for fire and protective signaling systems
+• UL 985-Household fire warning systems units
+• CAN/ULC-S530-Heat actuated fire detectors for fire alarm systems
+
+Part Numbers and Compatibility:
+• RF-ROR-135S-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-ROR-135S-345-NN: 345 MHz. Honeywell®, 2GIG®
+• HD-4WDT-NN: Hard Wire`,
   },
   {
     slug: 'combination-smoke-and-carbon-monoxide-detector---wireless',
