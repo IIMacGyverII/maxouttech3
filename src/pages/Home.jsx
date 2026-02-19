@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { products } from '../data/products'
-import heroImage from '../assets/images/total coverage.webp'
+import heroImage from '../assets/images/homeradar.webp'
 
 const highlights = [
   {

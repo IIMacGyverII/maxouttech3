@@ -4,7 +4,6 @@ import wescoLogo from '../assets/images/wescovideo.webp'
 import loneStarLogo from '../assets/images/lonestarvideo.webp'
 import sssiLogo from '../assets/images/sssivideo.webp'
 import maxoutLogo from '../assets/images/apdvideo.webp'
-import totalCoverageImage from '../assets/images/total coverage.webp'
 import alarmaxLogo from '../assets/images/alarmaxlogovideo.webp'
 
 const channels = [
