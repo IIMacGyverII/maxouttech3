@@ -250,6 +250,26 @@ Part Numbers and Compatibility:
     summary: 'Dual-sensor life safety protection with wireless reporting.',
     image: smokeCoImage,
     category: 'Life Safety',
+    description: `The Wireless Combination Smoke/Heat and Carbon Monoxide Detector is a 2xCR123A battery powered wireless detector intended for use with a compatible wireless alarm system. The detector consists of a photoelectric smoke sensor, thermistor heat sensor and electrochemical carbon monoxide sensor coupled to a wireless transmitter, which communicates with the control panel.
+
+When fire or carbon monoxide is detected, the detector sounds a loud local alarm and the built-in transmitter sends a signal to the control panel. The Wireless Combination Smoke, Heat and Carbon Monoxide Detector contains an integrated fixed 41°F and 5°C temperature freeze sensor that will send a warning signal based on temperature detected. This detector is designed to provide protection with 70-foot spacing capability.
+
+The detector can send alarm, tamper and battery condition messages to the system’s receiver. Refer to the wireless system’s instruction for the maximum number of transmitters that can be supported. The detector has an operational life of 10 years. After 10 years of operation the detector will provide audio visual trouble indication and must be replaced.
+
+Features:
+• Three technologies, one device: Photoelectric smoke detector, thermistor heat detector plus 41° freeze notification, electrochemical CO detector
+• Power: Two CR123A Panasonic batteries
+• Wireless signals: Alarm, tamper, and low battery
+• Detector siren sounds in alarm: Smoke and heat (Temporal 3), CO (Temporal 4)
+• Operational life: 10 years
+• Push button to Hush feature
+• LED indicators: Red = alarm, Yellow = trouble/fault, Green = normal operation
+• Detector dirty notification feature
+• End of life notification feature
+• Low battery notification
+
+Compatibility and Part Numbers:
+• RF-APCMB-345-NN: 345 MHz. Honeywell® and 2GIG®`,
   },
   {
     slug: 'water-sensor',
@@ -257,6 +277,29 @@ Part Numbers and Compatibility:
     summary: 'Detects leaks and pooling before damage spreads.',
     image: waterSensorImage,
     category: 'Environmental',
+    description: `Wherever the possibility of unwanted water exists in a home or business, the Water Sensor is the ideal "peace of mind" sensor to add to your security and life safety system.
+
+If there is the possibility of water/toilet overflow, hose leak, sump pump failure, or pipe leak, the Water Sensor is on guard to alert of water accumulation and damage. Water is detected when water rises to the contacts, 1/32" from the floor. The sensor checks for water every 5 seconds and requires two positive checks for a valid alarm, reducing false alarms.
+
+Suggested placement areas include:
+• Near hot water heater
+• Near washing machine water hoses
+• Under sinks
+• Near sump pumps
+• Near bath or hot tubs
+
+Features:
+• Water detection probe is very sensitive, detecting as little as 1/32" of water when water contacts both probes at once
+• Detects water early and reports signal/alarm to control panel before severe water damage can occur
+• Patented antenna design
+• Maximizes signal transmission strength while minimizing battery energy draw, extending battery replacement time
+• Two battery design vs. one in competitive sensors, delivering more than double battery life
+• Easy to install and easy to "Learn" into 319.5 MHz control panels, such as UTC® Interlogix, GE®, and Qolsys®
+• Compact size, attractive design, matte finish, and neutral color complement any décor
+
+Compatibility and Part Numbers:
+• RF-WATER-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+• RF-WATER-345-NN: 345 MHz. Honeywell® and 2GIG®`,
   },
   {
     slug: 'keyfob-control---wireless',
@@ -264,6 +307,17 @@ Part Numbers and Compatibility:
     summary: 'Compact arming control with secure encryption.',
     image: keyfobControlImage,
     category: 'Control',
+    description: `The RF-Keyfob-319-NN is a wireless hand-held device used to turn on and off a 319.5 MHz alarm system. It allows arming, disarming, and panic activation. The sensor is powered by a replaceable 3-VDC lithium coin-cell battery.
+
+The Keyfob provides the user with these modes:
+• Arm-Away Mode — all devices active
+• Arm-Stay Mode — interior devices off
+• Panic activation
+• Activate lights — if control panel supports
+• Auxiliary out — requires panel features
+
+Compatibility and Part Numbers:
+• RF-KEYFOB-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®`,
   },
   {
     slug: 'keyfob-panic---wireless',
@@ -271,6 +325,21 @@ Part Numbers and Compatibility:
     summary: 'One-touch emergency activation from anywhere.',
     image: keyfobPanicImage,
     category: 'Life Safety',
+    description: `The RF-Keyfob Panic is a wireless hand-held device used as a portable panic or life-safety device, programmed into a 319.5 or 345 MHz control panel.
+
+False alarm feature: 2-second button hold to send signal to the panel and on to central station for assistance. This 2-second hold helps prevent false alarms from unintentional button press or bump.
+
+The keyfob is powered by a replaceable 3-VDC lithium coin-cell battery.
+
+Features:
+• Simple 1-step learn-in for 319.5 or 345 MHz wireless control panels
+• Lightweight and compact: 2.37" L x 1.5" W x .4" D
+• Silicone, non-slip button offers a secure feel and is easy to find on the fob, even in the dark
+• LED ring activates when function button is pressed, indicating a signal has been sent
+• Long-life battery (5 years), easy to replace
+• Built with MaxOut™ Technology for maximum RF security sensor reliability
+• MaxOut high-performance sensors deliver strong signal strength and range
+• Includes neck lanyard`,
   },
   {
     slug: 'panic---wireless',
@@ -278,6 +347,31 @@ Part Numbers and Compatibility:
     summary: 'Instant alert activation with accessory options.',
     image: panicButtonImage,
     category: 'Life Safety',
+    description: `The RF-Panic-One-Button-319 is a wireless hand-held device used as a portable panic or life-safety device, programmed into a 319.5 MHz control panel.
+
+False alarm feature: 2-second button hold or 2 quick presses send a signal to the panel and on to central station for assistance. This helps prevent false alarms from unintentional button presses or bumps.
+
+The Wireless Panic is powered by a replaceable 3-VDC lithium coin-cell battery.
+
+Includes:
+• Panic device
+• Mounting bracket for discrete mounting
+• Removable belt clip
+• Removable lanyard clip
+
+Features:
+• Powerful performance with exceptional range
+• Simple 1-step learn-in for 319.5 MHz wireless control panels
+• Lightweight and compact: 3" L x 2" W x .7" D
+• Silicone, non-slip button is easy to find, even in the dark
+• Red LED activates when function button is pressed, indicating a signal has been sent
+• Long-life battery (5 years), easy to replace
+• Built with MaxOut™ Technology for maximum RF security sensor reliability
+• MaxOut high-performance sensors deliver strong signal strength and range
+• Internal gasket to protect against moisture
+
+Compatibility and Part Numbers:
+• RF-PANIC-ONE-BUTTON-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®`,
   },
   {
     slug: 'enclosure-tamper-switch',
@@ -285,6 +379,14 @@ Part Numbers and Compatibility:
     summary: 'Detects cabinet or enclosure openings instantly.',
     image: tamperImage,
     category: 'Protection',
+        description: `The System Enclosure Tamper is used to protect security system enclosures from removal and/or cover tamper. The System Enclosure Tamper can be used as a wall tamper, a cover tamper, or both, as illustrated in image.
+
+Adjustable plunger screw can be set to accommodate different wall or cover gap sizes. The tamper may be mounted with or without self-adjusting extender screw in place. With the extender screw removed, the plunger will recede flush to housing.
+
+Features:
+• Compare with Sentrol 3025 tamper switch
+• Reed-actuated wall and cover tamper switch
+• Closed-loop with built-in automatic service shunt`,
   },
 ]
 
