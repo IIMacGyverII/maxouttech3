@@ -506,6 +506,10 @@ main {
   color: #5c6b85;
 }
 
+.contact-text + .contact-text {
+  margin-top: 12px;
+}
+
 .cta-banner {
   margin-top: 32px;
   background: #0b1220;

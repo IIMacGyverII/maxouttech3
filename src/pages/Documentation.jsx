@@ -309,7 +309,12 @@ function Documentation() {
                         rel="noreferrer"
                       >
                         {item.label}
-                        {item.partNumber ? ` — ${item.partNumber}` : ''}
+                        {item.partNumber ? (
+                          <>
+                            <br />
+                            {item.partNumber}
+                          </>
+                        ) : null}
                       </a>
                     </li>
                   ))}
@@ -342,7 +347,12 @@ function Documentation() {
                   rel="noreferrer"
                 >
                   {sheet.label}
-                  {sheet.partNumber ? ` — ${sheet.partNumber}` : ''}
+                  {sheet.partNumber ? (
+                    <>
+                      <br />
+                      {sheet.partNumber}
+                    </>
+                  ) : null}
                 </a>
               </div>
             ))}

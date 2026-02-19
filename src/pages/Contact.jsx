@@ -7,8 +7,8 @@ function Contact() {
             <p className="eyebrow">Contact</p>
             <h1>Connect with our team.</h1>
             <p className="lead">
-              Tell us about your project and we’ll help you design the right
-              wireless security package.
+              Questions on compatibility, installation, or help finding a
+              distributor?
             </p>
             <div className="contact-cards">
               <div className="contact-card">
