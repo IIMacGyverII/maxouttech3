@@ -304,7 +304,7 @@ Compatibility and Part Numbers:
   {
     slug: 'keyfob-control---wireless',
     name: 'System Control FOB',
-    summary: 'Compact arming control with secure encryption.',
+        summary: 'Compact arming control.',
     image: keyfobControlImage,
     category: 'Control',
     description: `The RF-Keyfob-319-NN is a wireless hand-held device used to turn on and off a 319.5 MHz alarm system. It allows arming, disarming, and panic activation. The sensor is powered by a replaceable 3-VDC lithium coin-cell battery.

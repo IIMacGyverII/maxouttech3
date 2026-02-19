@@ -46,7 +46,6 @@ function WirelessSecurity() {
               commercial environments.
             </p>
             <ul className="detail-list">
-              <li>Multi-point encryption for secure signaling</li>
               <li>Flexible mounting options for retrofit projects</li>
               <li>Scalable for multi-site and enterprise deployments</li>
             </ul>
