@@ -3,9 +3,17 @@ import apartmentImage from '../assets/images/48__apartment building.jpg'
 import maxoutPromoPoster from '../assets/images/maxoutpromo1.jpg'
 import wirelessPromoVideo from '../assets/videos/maxoutpromo1.mp4'
 
+import { MetaTags } from '../components/MetaTags'
+
 function WirelessSecurity() {
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="Wireless Security | Maxout Technology"
+        description="Discover flexible, scalable wireless security solutions for residential and commercial environments. Maxout Technology's wireless platform provides multi-point coverage with enterprise-grade reliability."
+        url="https://IIMacGyverII.github.io/maxouttech3/#/wireless-security"
+      />
+      <div className="page">
       <section className="section">
         <div className="container">
           <div className="section-head">
@@ -57,6 +65,7 @@ function WirelessSecurity() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

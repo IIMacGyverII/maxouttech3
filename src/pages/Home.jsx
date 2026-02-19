@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { products } from '../data/products'
+import { MetaTags } from '../components/MetaTags'
 import heroImage from '../assets/images/homeradar.webp'
 
 const highlights = [
@@ -19,7 +20,13 @@ const highlights = [
 
 function Home() {
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="Maxout Technology | Wireless Security Sensors & Life Safety Devices"
+        description="High-performance wireless security sensors, life safety detectors, and control solutions for residential and commercial properties. Explore our complete product lineup."
+        url="https://IIMacGyverII.github.io/maxouttech3/"
+      />
+      <div className="page">
       <section className="hero">
         <div className="container hero-grid">
           <div>
@@ -91,6 +98,7 @@ function Home() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

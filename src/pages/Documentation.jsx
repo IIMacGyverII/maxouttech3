@@ -270,9 +270,17 @@ const pressReleases = [
   },
 ]
 
+import { MetaTags } from '../components/MetaTags'
+
 function Documentation() {
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="Documentation | Maxout Technology"
+        description="Access installation manuals, technical datasheets, and product documentation for all Maxout Technology wireless sensors and life safety devices."
+        url="https://IIMacGyverII.github.io/maxouttech3/#/documentation"
+      />
+      <div className="page">
       <section className="section">
         <div className="container">
           <p className="eyebrow">Documentation</p>
@@ -396,6 +404,7 @@ function Documentation() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

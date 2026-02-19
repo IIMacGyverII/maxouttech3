@@ -54,9 +54,17 @@ const partnerCards = [
   },
 ]
 
+import { MetaTags } from '../components/MetaTags'
+
 function WhereToBuy() {
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="Where to Buy | Maxout Technology"
+        description="Find an authorized Maxout Technology distributor. We work with trusted partners to bring our wireless sensors and life safety devices to security professionals nationwide."
+        url="https://IIMacGyverII.github.io/maxouttech3/#/where-to-buy"
+      />
+      <div className="page">
       <section className="section">
         <div className="container">
           <p className="eyebrow">Where to buy</p>
@@ -103,6 +111,7 @@ function WhereToBuy() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

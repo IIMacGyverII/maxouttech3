@@ -21,9 +21,17 @@ const overviewItems = [
   },
 ]
 
+import { MetaTags } from '../components/MetaTags'
+
 function LineCard() {
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="Line Card | Maxout Technology"
+        description="Wireless security and life-safety products for professional security integrators, dealers, and distributors. Maxout Technology line card and product overview."
+        url="https://IIMacGyverII.github.io/maxouttech3/#/line-card"
+      />
+      <div className="page">
       <section className="section">
         <div className="container">
           <p className="eyebrow">Line card overview</p>
@@ -90,6 +98,7 @@ function LineCard() {
 
 
     </div>
+    </>
   )
 }
 

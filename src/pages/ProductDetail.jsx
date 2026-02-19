@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import { products } from '../data/products'
+import { MetaTags } from '../components/MetaTags'
 
 function ProductDetail() {
   const { slug } = useParams()
@@ -7,7 +8,13 @@ function ProductDetail() {
 
   if (!product) {
     return (
-      <div className="page">
+      <>
+        <MetaTags 
+          title="Product Not Found | Maxout Technology"
+          description="The product you're looking for could not be found. Browse our complete product catalog."
+          url="https://IIMacGyverII.github.io/maxouttech3/#/products"
+        />
+        <div className="page">
         <section className="section">
           <div className="container">
             <p className="eyebrow">Product not found</p>
@@ -18,11 +25,18 @@ function ProductDetail() {
           </div>
         </section>
       </div>
+      </>
     )
   }
 
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title={`${product.name} | Maxout Technology`}
+        description={product.summary + ' Learn more about features, compatibility, and documentation.'}
+        url={`https://IIMacGyverII.github.io/maxouttech3/#/products/${product.slug}`}
+      />
+      <div className="page">
       <section className="section">
         <div className="container detail-grid">
           <div className="detail-media">
@@ -85,6 +99,7 @@ function ProductDetail() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

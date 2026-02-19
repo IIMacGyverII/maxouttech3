@@ -1,5 +1,6 @@
 import { Link, useSearchParams } from 'react-router-dom'
 import { products } from '../data/products'
+import { MetaTags } from '../components/MetaTags'
 
 function Products() {
   const [searchParams] = useSearchParams()
@@ -14,7 +15,13 @@ function Products() {
     : products
 
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="Products | Maxout Technology"
+        description="Browse our complete catalog of wireless sensors, motion detectors, glass break sensors, life safety devices, and control solutions. Find the right product for your installation."
+        url="https://IIMacGyverII.github.io/maxouttech3/#/products"
+      />
+      <div className="page">
       <section className="section">
         <div className="container">
           <p className="eyebrow">Product catalog</p>
@@ -55,6 +62,7 @@ function Products() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

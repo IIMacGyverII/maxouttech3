@@ -1,6 +1,14 @@
+import { MetaTags } from '../components/MetaTags'
+
 function About() {
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="About Maxout Technology"
+        description="Learn about Maxout Technology's 30+ years of experience as a trusted innovator in wireless security and life-safety sensing solutions for residential and commercial environments."
+        url="https://IIMacGyverII.github.io/maxouttech3/#/about"
+      />
+      <div className="page">
       <section className="section">
         <div className="container">
           <div>
@@ -89,6 +97,7 @@ function About() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

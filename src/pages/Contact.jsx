@@ -1,6 +1,14 @@
+import { MetaTags } from '../components/MetaTags'
+
 function Contact() {
   return (
-    <div className="page">
+    <>
+      <MetaTags 
+        title="Contact | Maxout Technology"
+        description="Get in touch with our sales and support teams. Questions about product compatibility, installation, or finding an authorized distributor? Contact Maxout Technology."
+        url="https://IIMacGyverII.github.io/maxouttech3/#/contact"
+      />
+      <div className="page">
       <section className="section">
         <div className="container contact-grid">
           <div>
@@ -70,6 +78,7 @@ function Contact() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

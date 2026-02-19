@@ -1,0 +1,24 @@
+# Maxout Technology - Search Engine Bot Configuration
+# Last Updated: February 2026
+
+User-agent: *
+Allow: /
+Allow: /#/
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: /*.json$
+
+# Specific crawler directives
+User-agent: Googlebot
+Allow: /#/
+Allow: /
+
+User-agent: Bingbot
+Allow: /#/
+Allow: /
+
+# Crawl delay (in seconds) - be respectful
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://IIMacGyverII.github.io/maxouttech3/sitemap.xml
