@@ -21,6 +21,23 @@ const products = [
     summary: 'Discrete contact for minimal visual impact.',
     image: miniDoorWindowImage,
     category: 'Perimeter',
+    description: `The Mini Door/Window Sensor is a supervised, wireless sensor that detects the opening and closing of doors or windows.
+
+New, high–powered Microchip delivers exceptional range; 360° with no "dead spots" or signal drop-offs. Patented design with an isolated antenna 1/8" above board and separated from batteries for superior RF performance and transmission efficiency. Substantially reduced interference from metal door and window frames. Reduced battery energy draw—lengthens the battery life.
+
+**Features:**
+- Signals: supervisory, tamper, and low battery
+- Dual tamper; sensor and case for added security
+- Effective with vertical or horizontal mount
+- Replaceable extra long-life batteries: 2-3VDC lithium coin-cell
+- Smaller and narrow switch package
+- Superior RF range and performance, even on steel surfaces
+
+**Compatibility and Part Numbers:**
+- **RF-CMDWS-319-NN:** 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+- **RF-CMDWS-345-NN:** 345 MHz. Honeywell® and 2GIG®
+- **RF-CMDWS-433-D-NN:** 433 MHz. DSC®
+- **CEA-RF-CMDWS-ENC-BRN-KIT:** Brown sensor and magnet cover kit contains 5 each, brown: sensor covers, sensor bases, magnet cover and magnet bases.`,
   },
   {
     slug: 'recessed-doorwindow-sensor---wireless',

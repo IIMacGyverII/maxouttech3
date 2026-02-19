@@ -32,12 +32,18 @@ function ProductDetail() {
             <p className="eyebrow">{product.category}</p>
             <h1>{product.name}</h1>
             <p className="lead">{product.summary}</p>
-            <ul className="detail-list">
-              <li>Encrypted wireless communication</li>
-              <li>Extended battery life options</li>
-              <li>Fast installation with minimal tools</li>
-              <li>Supports commercial and residential deployments</li>
-            </ul>
+            {product.description ? (
+              <div className="product-description" style={{ whiteSpace: 'pre-wrap' }}>
+                {product.description}
+              </div>
+            ) : (
+              <ul className="detail-list">
+                <li>Encrypted wireless communication</li>
+                <li>Extended battery life options</li>
+                <li>Fast installation with minimal tools</li>
+                <li>Supports commercial and residential deployments</li>
+              </ul>
+            )}
             <div className="detail-actions">
               <Link className="button ghost" to="/documentation">
                 View documentation
