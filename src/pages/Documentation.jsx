@@ -310,10 +310,7 @@ function Documentation() {
                       >
                         {item.label}
                         {item.partNumber ? (
-                          <>
-                            <br />
-                            {item.partNumber}
-                          </>
+                          <span className="doc-part-number">{item.partNumber}</span>
                         ) : null}
                       </a>
                     </li>
@@ -348,10 +345,7 @@ function Documentation() {
                 >
                   {sheet.label}
                   {sheet.partNumber ? (
-                    <>
-                      <br />
-                      {sheet.partNumber}
-                    </>
+                    <span className="doc-part-number">{sheet.partNumber}</span>
                   ) : null}
                 </a>
               </div>

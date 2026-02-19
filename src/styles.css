@@ -551,12 +551,20 @@ main {
 }
 
 .doc-link {
-  display: inline-flex;
-  gap: 8px;
+  display: inline-block;
   color: #1a4bff;
   font-weight: 600;
   text-decoration: none;
   line-height: 1.4;
+}
+
+.doc-part-number {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #5c6b85;
+  letter-spacing: 0.02em;
 }
 
 .doc-link:hover {
