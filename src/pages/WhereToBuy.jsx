@@ -100,15 +100,6 @@ function WhereToBuy() {
               )
             ))}
           </div>
-          <div className="cta-banner">
-            <div>
-              <h3>Need help locating inventory?</h3>
-              <p>Send your requirements and our team will respond quickly.</p>
-            </div>
-            <Link className="button primary" to="/contact">
-              Contact sales
-            </Link>
-          </div>
         </div>
       </section>
     </div>
