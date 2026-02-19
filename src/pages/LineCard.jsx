@@ -76,7 +76,7 @@ function LineCard() {
           </div>
           <div className="cta-banner">
             <div>
-              <h3>Wireless security sensing products for professionals.</h3>
+              <h3>MaxOut Wireless Sensors are sold to professional security installation companies from an authorized MaxOut Technology Distributor.</h3>
               <p className="lead">
                 Call <a href="tel:+17634971059">763-497-1059</a> or connect with an authorized distributor.
               </p>
