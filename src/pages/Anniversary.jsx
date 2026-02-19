@@ -8,12 +8,12 @@ function Anniversary() {
           <div className="detail-grid" style={{ alignItems: 'start' }}>
             <div>
               <h1>
-                Celebrating 20 Years of Innovation: Cinch Systems and MaxOut
-                Technologies
+                Celebrating 20 Years of Innovation: Cinch Systems and Maxout
+                Technology
               </h1>
               <p className="lead">
                 February 2026 – As we mark this milestone in 2026, Cinch Systems
-                and MaxOut Technologies are thrilled to celebrate 20 years of
+                and Maxout Technology are thrilled to celebrate 20 years of
                 pioneering advancements in high-security and life-safety
                 solutions. From our roots in St. Michael, Minnesota, we've grown
                 into trusted leaders in the security industry, delivering
@@ -24,7 +24,7 @@ function Anniversary() {
             <div className="detail-media">
               <img
                 src={cinchMaxoutBadge}
-                alt="Cinch Systems and MaxOut Technologies 20-year anniversary"
+                alt="Cinch Systems and Maxout Technology 20-year anniversary"
               />
             </div>
           </div>
@@ -44,10 +44,10 @@ function Anniversary() {
             environments.
           </p>
           <p>
-            MaxOut Technologies, a key division of Cinch Systems, complements
+            Maxout Technology, a key division of Cinch Systems, complements
             this expertise by focusing on wireless security sensors and
             life-safety products. With over 30 years of collective experience in
-            wireless technology, MaxOut produces the most advanced, reliable,
+            wireless technology, Maxout produces the most advanced, reliable,
             secure, easy-to-use, and compact devices available. Our sensors are
             designed for seamless integration with leading systems like UTC®,
             Interlogix®, GE®, Honeywell®, 2GIG®, and DSC®, offering superior RF
@@ -55,7 +55,7 @@ function Anniversary() {
             and supervisory signals.
           </p>
           <p>
-            Together, Cinch Systems and MaxOut Technologies represent a powerful
+            Together, Cinch Systems and Maxout Technology represent a powerful
             partnership in innovation, sharing the same commitment to quality
             and reliability from our shared headquarters at 12075 43rd Street
             NE, Suite 500, St. Michael, MN 55376.
@@ -74,7 +74,7 @@ function Anniversary() {
             for high-stakes environments.
           </p>
           <p>
-            MaxOut Wireless Sensors and Detectors: Our line includes mini
+            Maxout Wireless Sensors and Detectors: Our line includes mini
             door/window sensors, recessed and outdoor models, glass break
             detectors, PIR motion sensors, water sensors, smoke/heat/CO
             combination detectors, keyfobs, panic buttons, and enclosure tamper
@@ -83,7 +83,7 @@ function Anniversary() {
             345 MHz, 433 MHz).
           </p>
           <p>
-            securityinfowatch.comWireless Mini Door/Window Sensor from MaxOut
+            securityinfowatch.com Wireless Mini Door/Window Sensor from Maxout
             Technology | Security ...
           </p>
           <p>
@@ -107,7 +107,7 @@ function Anniversary() {
             </li>
           </ul>
           <p>
-            MaxOut Technologies has similarly pushed boundaries in wireless
+            Maxout Technology has similarly pushed boundaries in wireless
             security, replacing legacy models from brands like Honeywell and GE
             with superior, modern alternatives.
           </p>
@@ -117,7 +117,7 @@ function Anniversary() {
             As we celebrate this 20-year anniversary, we're excited about the
             future. With a focus on emerging technologies like enhanced
             encryption, AI-driven detection, and sustainable designs, Cinch
-            Systems and MaxOut Technologies are poised to lead the industry into
+            Systems and Maxout Technology are poised to lead the industry into
             a new era of security.
           </p>
           <p>

@@ -27,7 +27,7 @@ function LineCard() {
       <section className="section">
         <div className="container">
           <p className="eyebrow">Line card overview</p>
-          <h1>Quick view of MaxOut Technologies.</h1>
+          <h1>Quick view of Maxout Technology.</h1>
           <p className="lead">
             Wireless security and life-safety sensing products for professional
             dealers and distributors.
@@ -71,7 +71,7 @@ function LineCard() {
               target="_blank"
               rel="noreferrer"
             >
-              Download MaxOut Line Card
+              Download Maxout Line Card
             </a>
           </div>
           <div className="cta-banner">

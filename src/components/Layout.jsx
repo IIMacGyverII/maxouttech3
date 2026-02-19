@@ -6,12 +6,12 @@ import cinchMaxoutBadge from '../assets/images/CinchMaxout20year.webp'
 
 const navItems = [
   { to: '/', label: 'Home' },
-  { to: '/products', label: 'Products' },
   { to: '/wireless-security', label: 'Wireless Security' },
+  { to: '/products', label: 'Products' },
   { to: '/line-card', label: 'Line Card' },
   { to: '/documentation', label: 'Documentation' },
-  { to: '/about', label: 'About' },
   { to: '/where-to-buy', label: 'Where to Buy' },
+  { to: '/about', label: 'About' },
   { to: '/contact', label: 'Contact' },
 ]
 
@@ -30,16 +30,16 @@ function Layout() {
       <header className="site-header">
         <div className="container header-inner">
           <div className="brand">
-            <img className="brand-mark" src={logo} alt="MaxOut Technologies" />
+            <img className="brand-mark" src={logo} alt="Maxout Technology" />
             <div>
-              <p className="brand-title">MaxOut Technologies</p>
-              <p className="brand-subtitle">Wireless Security & Life Safety</p>
+              <p className="brand-title">Maxout Technology</p>
+              <p className="brand-subtitle">Wireless Security & Life Safety Sensors and Detectors</p>
             </div>
             <Link to="/anniversary" className="brand-badge-link">
               <img
                 className="brand-badge"
                 src={cinchMaxoutBadge}
-                alt="Cinch MaxOut 20-year"
+                alt="Cinch Maxout 20-year"
               />
             </Link>
           </div>
@@ -77,7 +77,7 @@ function Layout() {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
-            <p className="footer-title">MaxOut Technologies</p>
+            <p className="footer-title">Maxout Technology</p>
             <p className="footer-text">
               High-performance wireless sensors, life safety devices, and control
               solutions for residential and commercial environments.

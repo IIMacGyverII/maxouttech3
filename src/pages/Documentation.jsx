@@ -248,7 +248,7 @@ const dataSheets = [
 ]
 
 const additionalResources = [
-  { label: 'MaxOut Line Card', file: 'line-card-8_1_25.pdf' },
+  { label: 'Maxout Line Card', file: 'line-card-8_1_25.pdf' },
   {
     label: 'RF Shock Advantages',
     file: '5_maxout-rf-shock-advantages.pdf',
@@ -257,7 +257,7 @@ const additionalResources = [
 
 const pressReleases = [
   {
-    label: 'MaxOut Technology News Release',
+    label: 'Maxout Technology News Release',
     file: 'final_-maxout-technology-news-release..pdf',
   },
   {
@@ -289,7 +289,7 @@ function Documentation() {
           <div className="section-head">
             <div>
               <p className="eyebrow">Installation manuals</p>
-              <h2>MaxOut Technology sensors and detectors.</h2>
+              <h2>Maxout Technology sensors and detectors.</h2>
               <p className="lead">
                 Select a product family to open the correct installation manual.
               </p>

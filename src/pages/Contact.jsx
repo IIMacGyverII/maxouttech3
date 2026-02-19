@@ -33,7 +33,7 @@ function Contact() {
           </div>
           <form
             className="contact-form"
-            action="mailto:Info@MaxOutTech.com"
+            action="mailto:info@maxouttech.com"
             method="post"
             encType="text/plain"
           >
