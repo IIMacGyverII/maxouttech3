@@ -82,7 +82,7 @@ function LineCard() {
               </p>
             </div>
             <Link className="button ghost" to="/where-to-buy">
-              Find a Dealer
+              Find an Authorized MaxOut Technology Distributor
             </Link>
           </div>
         </div>
