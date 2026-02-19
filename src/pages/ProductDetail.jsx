@@ -39,9 +39,6 @@ function ProductDetail() {
               <li>Supports commercial and residential deployments</li>
             </ul>
             <div className="detail-actions">
-              <Link className="button primary" to="/contact">
-                Request pricing
-              </Link>
               <Link className="button ghost" to="/documentation">
                 View documentation
               </Link>
