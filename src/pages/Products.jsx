@@ -20,8 +20,9 @@ function Products() {
           <p className="eyebrow">Product catalog</p>
           <h1>Wireless sensors & life safety</h1>
           <p className="lead">
-            Discover the full Maxout Technology lineup built for reliability, long
-            battery life, and fast deployments.
+            Discover the full MaxOut Technologies lineup built for the longest
+            wireless range from the control, reliable sensor response, and the
+            longest battery life.
           </p>
         </div>
       </section>

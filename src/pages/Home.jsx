@@ -34,7 +34,7 @@ function Home() {
                 Explore products
               </Link>
               <Link className="button ghost" to="/contact">
-                Talk to sales
+                Questions
               </Link>
             </div>
           </div>
