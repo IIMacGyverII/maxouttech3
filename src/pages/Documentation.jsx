@@ -248,7 +248,7 @@ const dataSheets = [
 ]
 
 const additionalResources = [
-  { label: 'Maxout Line Card', file: 'line-card-8_1_25.pdf' },
+  { label: 'MaxOut Line Card', file: 'line-card-8_1_25.pdf' },
   {
     label: 'RF Shock Advantages',
     file: '5_maxout-rf-shock-advantages.pdf',
@@ -257,7 +257,7 @@ const additionalResources = [
 
 const pressReleases = [
   {
-    label: 'Maxout Technology News Release',
+    label: 'MaxOut Technology News Release',
     file: 'final_-maxout-technology-news-release..pdf',
   },
   {
@@ -276,8 +276,8 @@ function Documentation() {
   return (
     <>
       <MetaTags 
-        title="Documentation | Maxout Technology"
-        description="Access installation manuals, technical datasheets, and product documentation for all Maxout Technology wireless sensors and life safety devices."
+        title="Documentation | MaxOut Technology"
+        description="Access installation manuals, technical datasheets, and product documentation for all MaxOut Technology wireless sensors and life safety devices."
         url="https://IIMacGyverII.github.io/maxouttech3/#/documentation"
       />
       <div className="page">
@@ -297,7 +297,7 @@ function Documentation() {
           <div className="section-head">
             <div>
               <p className="eyebrow">Installation manuals</p>
-              <h2>Maxout Technology sensors and detectors.</h2>
+              <h2>MaxOut Technology sensors and detectors.</h2>
               <p className="lead">
                 Select a product family to open the correct installation manual.
               </p>

@@ -6,13 +6,13 @@ import { useEffect } from 'react'
  * 
  * Usage:
  * <MetaTags 
- *   title="Page Title | Maxout Technology"
+ *   title="Page Title | MaxOut Technology"
  *   description="Page description here"
  *   image="https://example.com/image.png"
  * />
  */
 export function MetaTags({ 
-  title = 'Maxout Technology | Wireless Security Sensors & Life Safety Devices',
+  title = 'MaxOut Technology | Wireless Security Sensors & Life Safety Devices',
   description = 'High-performance wireless security sensors, life safety detectors, and control solutions for residential and commercial properties.',
   image = 'https://IIMacGyverII.github.io/maxouttech3/favicon-32x32.png',
   url = 'https://IIMacGyverII.github.io/maxouttech3/',

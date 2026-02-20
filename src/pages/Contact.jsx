@@ -4,8 +4,8 @@ function Contact() {
   return (
     <>
       <MetaTags 
-        title="Contact | Maxout Technology"
-        description="Get in touch with our sales and support teams. Questions about product compatibility, installation, or finding an authorized distributor? Contact Maxout Technology."
+        title="Contact | MaxOut Technology"
+        description="Get in touch with our sales and support teams. Questions about product compatibility, installation, or finding an authorized distributor? Contact MaxOut Technology."
         url="https://IIMacGyverII.github.io/maxouttech3/#/contact"
       />
       <div className="page">

@@ -4,18 +4,18 @@ function About() {
   return (
     <>
       <MetaTags 
-        title="About Maxout Technology"
-        description="Learn about Maxout Technology's 30+ years of experience as a trusted innovator in wireless security and life-safety sensing solutions for residential and commercial environments."
+        title="About MaxOut Technology"
+        description="Learn about MaxOut Technology's 30+ years of experience as a trusted innovator in wireless security and life-safety sensing solutions for residential and commercial environments."
         url="https://IIMacGyverII.github.io/maxouttech3/#/about"
       />
       <div className="page">
       <section className="section">
         <div className="container">
           <div>
-            <p className="eyebrow">About Maxout Technology</p>
-            <h1>Maxout™ Technology</h1>
+            <p className="eyebrow">About MaxOut Technology</p>
+            <h1>MaxOut™ Technology</h1>
             <p className="lead">
-              Maxout™ Technology is a trusted innovator in wireless security and
+              MaxOut™ Technology is a trusted innovator in wireless security and
               life-safety sensing solutions, proudly based in St. Michael,
               Minnesota. With more than 30 years of specialized experience in
               designing and manufacturing high-performance wireless sensors, our
@@ -36,7 +36,7 @@ function About() {
               the real world—larger homes, challenging layouts, and demanding
               environments—without compromise.
             </p>
-            <h2>What Sets Maxout™ Technology Apart</h2>
+            <h2>What Sets MaxOut™ Technology Apart</h2>
             <ul className="detail-list">
               <li>
                 Proven Heritage — Over three decades of wireless innovation and
@@ -65,13 +65,13 @@ function About() {
             <p>
               From door/window contacts and motion detectors to heat detectors,
               water sensors, keyfobs, and specialized perimeter devices,
-              Maxout™ products protect what matters most—people, homes, and
+              MaxOut™ products protect what matters most—people, homes, and
               businesses.
             </p>
             <p>
               Whether you're a security professional looking for dependable,
               high-value sensors or a partner seeking expert wireless product
-              development, Maxout™ Technology delivers performance you can count
+              development, MaxOut™ Technology delivers performance you can count
               on.
             </p>
             <h2>Headquarters</h2>

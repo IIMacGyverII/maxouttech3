@@ -22,7 +22,7 @@ function Home() {
   return (
     <>
       <MetaTags 
-        title="Maxout Technology | Wireless Security Sensors & Life Safety Devices"
+        title="MaxOut Technology | Wireless Security Sensors & Life Safety Devices"
         description="High-performance wireless security sensors, life safety detectors, and control solutions for residential and commercial properties. Explore our complete product lineup."
         url="https://IIMacGyverII.github.io/maxouttech3/"
       />
@@ -32,7 +32,7 @@ function Home() {
           <div>
             <h1>Modern protection for people and property.</h1>
             <p className="lead">
-              Maxout Technology delivers wireless sensors and life safety devices that
+              MaxOut Technology delivers wireless sensors and life safety devices that
               integrate seamlessly with today’s security systems.
             </p>
             <div className="hero-actions">

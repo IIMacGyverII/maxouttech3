@@ -10,7 +10,7 @@ function ProductDetail() {
     return (
       <>
         <MetaTags 
-          title="Product Not Found | Maxout Technology"
+          title="Product Not Found | MaxOut Technology"
           description="The product you're looking for could not be found. Browse our complete product catalog."
           url="https://IIMacGyverII.github.io/maxouttech3/#/products"
         />
@@ -32,7 +32,7 @@ function ProductDetail() {
   return (
     <>
       <MetaTags 
-        title={`${product.name} | Maxout Technology`}
+        title={`${product.name} | MaxOut Technology`}
         description={product.summary + ' Learn more about features, compatibility, and documentation.'}
         url={`https://IIMacGyverII.github.io/maxouttech3/#/products/${product.slug}`}
       />

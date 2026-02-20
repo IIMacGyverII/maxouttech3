@@ -27,15 +27,15 @@ function LineCard() {
   return (
     <>
       <MetaTags 
-        title="Line Card | Maxout Technology"
-        description="Wireless security and life-safety products for professional security integrators, dealers, and distributors. Maxout Technology line card and product overview."
+        title="Line Card | MaxOut Technology"
+        description="Wireless security and life-safety products for professional security integrators, dealers, and distributors. MaxOut Technology line card and product overview."
         url="https://IIMacGyverII.github.io/maxouttech3/#/line-card"
       />
       <div className="page">
       <section className="section">
         <div className="container">
           <p className="eyebrow">Line card overview</p>
-          <h1>Quick view of Maxout Technology.</h1>
+          <h1>Quick view of MaxOut Technology.</h1>
           <p className="lead">
             Wireless security and life-safety sensing products for professional
             dealers and distributors.
@@ -79,7 +79,7 @@ function LineCard() {
               target="_blank"
               rel="noreferrer"
             >
-              Download Maxout Line Card
+              Download MaxOut Line Card
             </a>
           </div>
           <div className="cta-banner">
