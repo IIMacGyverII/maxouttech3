@@ -51,7 +51,7 @@ function WirelessSecurity() {
             <p className="lead">
               Our wireless sensors deliver the longest battery life in the industry,
               enabling rapid installations across residential and commercial
-              environments without frequent maintenance.
+              environments.
             </p>
             <ul className="detail-list">
               <li>Flexible mounting options for retrofit projects</li>
