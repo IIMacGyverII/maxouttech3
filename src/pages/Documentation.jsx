@@ -167,27 +167,27 @@ const installationManuals = [
 const dataSheets = [
   {
     label: 'Mini Door/Window Sensor, 319 MHz',
-    partNumber: 'RF-CMDWS-319-NN',
+    partNumber: 'RF-CMDWS-319-NN, RF-CMDWS-345-NN, RF-CMDWS-433-D-NN',
     file: '1_rf_cmdws_nn_pds.pdf',
   },
   {
     label: 'Mini Door/Window Sensor, Extended',
-    partNumber: 'RF-CMDWSX',
+    partNumber: 'RF-CMDWSX-319-NN, RF-CMDWSX-345-NN',
     file: '2_rf_cmdwsx_nn_pds.pdf',
   },
   {
     label: 'Recessed Door/Window Sensor',
-    partNumber: 'RF-RDWS',
+    partNumber: 'RF-RDWS-319-NN, RF-RDWS-345-NN',
     file: '3_rf_rdws_nn_pds.pdf',
   },
   {
     label: 'TOTAL Window Sensor',
-    partNumber: 'RF-SHK',
+    partNumber: 'RF-SHK-319-NN, RF-SHK-345-NN',
     file: '4_rf_shk_nn_pds.pdf',
   },
   {
     label: 'Extreme Sensor, Outdoor',
-    partNumber: 'RF-CMDWS-OD',
+    partNumber: 'RF-CMDWS-OD-319-NN, RF-CMDWS-OD-345-NN',
     file: '5_rf_cmdws_od_pds.pdf',
   },
   {
@@ -202,7 +202,7 @@ const dataSheets = [
   },
   {
     label: 'Keyfob Panic',
-    partNumber: 'RF-FOB-PANIC',
+    partNumber: 'RF-FOB-PANIC-319-NN, RF-FOB-PANIC-345-NN',
     file: '8_rf_fob_panic_nn-pds.pdf',
   },
   {
@@ -212,7 +212,7 @@ const dataSheets = [
   },
   {
     label: 'Wall Mounted PIR',
-    partNumber: 'RF-ARPIR',
+    partNumber: 'RF-ARPIR-319-NN, RF-ARPIR-345-NN',
     file: '10_rf_arpir_nn_-pds.pdf',
   },
   {
@@ -227,7 +227,7 @@ const dataSheets = [
   },
   {
     label: 'Rate-of-Rise Heat Detector',
-    partNumber: 'RF-ROR',
+    partNumber: 'RF-ROR-135S-319-NN, RF-ROR-135S-345-NN, HD-4WDT-NN',
     file: '13_rf_ror_nn_pds.pdf',
   },
   {
@@ -237,7 +237,7 @@ const dataSheets = [
   },
   {
     label: 'Water Detector',
-    partNumber: 'RF-WATER',
+    partNumber: 'RF-WATER-319-NN, RF-WATER-345-NN',
     file: '15_rf_water_nn_pds.pdf',
   },
   {
