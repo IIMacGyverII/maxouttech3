@@ -13,6 +13,7 @@ import heatDetectorImage from '../assets/images/cinch systems rate-of-rise heat 
 import recessedDoorImage from '../assets/images/recess d_w.jpg'
 import totalWindowImage from '../assets/images/total window sensor-recovered copy.png'
 import waterSensorImage from '../assets/images/water on floor.jpg'
+import pir433Image from '../assets/images/rf_pir_433_d_nn copy.png'
 
 const products = [
   {
@@ -85,7 +86,7 @@ Compatibility and Part Numbers:
   {
     slug: 'doorwindow-sensor,-extended',
     name: 'Extended Door/Window',
-    summary: 'Long-range magnetic contact for perimeter protection.',
+        summary: 'Door/window sensor with external contact.',
     image: doorExtendedImage,
     category: 'Perimeter',
     description: `The Mini Door/Window Sensor with Extended/External Contact is a supervised, wireless sensor that detects the opening and closing of doors or windows. When activated, the sensor transmits an open (trip) or close (restore) signal to the panel. These are the signals the unit provides: supervisory, tamper and low battery (as needed). An external contact can be connected to the transmitter by feeding contact wiring through the housing.
@@ -108,7 +109,7 @@ Compatibility and Part Numbers:
   {
     slug: 'extreme-sensor---wireless',
     name: 'Extreme Outdoor Door/Gate Sensor',
-    summary: 'Rugged sensor built for harsh environments.',
+        summary: 'Rugged sensor built for outdoor environments.',
     image: extremeImage,
     category: 'Industrial',
     description: `The Extreme Sensor is a supervised, wireless sensor that detects the opening and closing of doors, window, gates, garage doors, etc. in extreme environment. –32°F (-35.6°C) to 120°F (49°C).
@@ -162,7 +163,7 @@ Compatibility and Part Numbers:
     slug: 'motion-detector-pir-433-mhz---wireless',
     name: 'PIR 433 MHz',
     summary: 'Reliable 433 MHz PIR detection for interior coverage.',
-    image: wallMotionImage,
+        image: pir433Image,
     category: 'Detection',
   },
   {
