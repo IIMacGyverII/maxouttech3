@@ -49,9 +49,9 @@ function WirelessSecurity() {
             <p className="eyebrow">Wireless Security</p>
             <h1>Reliable coverage without the wires.</h1>
             <p className="lead">
-              Our wireless sensors are engineered for stable RF performance, long
-              battery life, and rapid installations across residential and
-              commercial environments.
+              Our wireless sensors deliver the longest battery life in the industry,
+              enabling rapid installations across residential and commercial
+              environments without frequent maintenance.
             </p>
             <ul className="detail-list">
               <li>Flexible mounting options for retrofit projects</li>
