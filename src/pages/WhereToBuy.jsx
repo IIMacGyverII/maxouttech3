@@ -3,7 +3,7 @@ import securityDataSupplyLogo from '../assets/images/sdslogovideo.webp'
 import wescoLogo from '../assets/images/wescovideo.webp'
 import loneStarLogo from '../assets/images/lonestarvideo.webp'
 import sssiLogo from '../assets/images/ss&si.webp'
-import maxoutLogo from '../assets/images/apdvideo.webp'
+import maxoutLogo from '../assets/images/APDlogo_MAIN_2023_2C_1.png'
 import alarmaxLogo from '../assets/images/AlarMaxLogo-No-Contact-K.png'
 
 const partnerCards = [
