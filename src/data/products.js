@@ -85,7 +85,7 @@ Compatibility and Part Numbers:
   },
   {
     slug: 'doorwindow-sensor,-extended',
-    name: 'Extended Door/Window',
+    name: 'Extended Door/Window Sensor',
         summary: 'Door/window sensor with external contact.',
     image: doorExtendedImage,
     category: 'Perimeter',
