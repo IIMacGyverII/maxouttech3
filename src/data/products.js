@@ -168,7 +168,7 @@ Compatibility and Part Numbers:
   },
   {
     slug: 'motion-detector,-ceiling-mounted---wireless',
-    name: 'CPIR',
+    name: 'Ceiling Mounted PIR',
     summary: '360° coverage with reliable PIR detection.',
     image: ceilingMotionImage,
     category: 'Detection',
