@@ -25,7 +25,7 @@ function Contact() {
                   <a href="mailto:sales@maxouttech.com">sales@maxouttech.com</a>
                 </p>
                 <p className="contact-text">
-                  <a href="tel:+17634971059">+1 (763) 497-1059</a>
+                  <a href="tel:+17634971059">+1 (763) 497-1059</a> CST
                 </p>
               </div>
               <div className="contact-card">
@@ -34,7 +34,7 @@ function Contact() {
                   <a href="mailto:support@maxouttech.com">support@maxouttech.com</a>
                 </p>
                 <p className="contact-text">
-                  <a href="tel:+17634971059">+1 (763) 497-1059</a>
+                  <a href="tel:+17634971059">+1 (763) 497-1059</a> CST
                 </p>
               </div>
             </div>
