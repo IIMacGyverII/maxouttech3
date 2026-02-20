@@ -63,7 +63,7 @@ Compatibility and Part Numbers:
   {
     slug: 'total-window-sensor---wireless',
     name: 'Total Window Sensor/Shock Detector',
-    summary: 'Multi-function window protection with shock detection.',
+        summary: 'Multi-function door/window sensor with shock detection.',
     image: totalWindowImage,
     category: 'Perimeter',
     description: `A window sensor is great at detecting and sending an alarm signal when a contact is opened. ......but what if entry is made through smashing the window? The intruder is in the house - with no alarm signal!
