@@ -103,7 +103,7 @@ Features:
 Compatibility and Part Numbers:
 • RF-ARPIR-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
 • RF-ARPIR-345-NN: 345 MHz. Honeywell® and 2GIG®
-• RF-PIR-433-D-NN: 433 MHz. DSC®`},{slug:"motion-detector-pir-433-mhz---wireless",name:"PIR 433 MHz",summary:"Reliable 433 MHz PIR detection for interior coverage.",image:fv,category:"Detection"},{slug:"motion-detector,-ceiling-mounted---wireless",name:"CPIR",summary:"360° coverage with reliable PIR detection.",image:nv,category:"Detection",description:`The RF-CPIR (Ceiling-Mounted PIR) is a 360 degree passive infrared motion detector designed for ceiling mount applications.
+• RF-PIR-433-D-NN: 433 MHz. DSC®`},{slug:"motion-detector-pir-433-mhz---wireless",name:"PIR 433 MHz",summary:"Reliable 433 MHz PIR detection for interior coverage.",image:fv,category:"Detection"},{slug:"motion-detector,-ceiling-mounted---wireless",name:"Ceiling Mounted PIR",summary:"360° coverage with reliable PIR detection.",image:nv,category:"Detection",description:`The RF-CPIR (Ceiling-Mounted PIR) is a 360 degree passive infrared motion detector designed for ceiling mount applications.
 
 Features:
 • Three minute motion lock-out to conserve battery life
