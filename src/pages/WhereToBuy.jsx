@@ -28,7 +28,7 @@ const partnerCards = [
     href: 'https://www.alarmax.com/',
   },
   {
-    name: 'Alarm Parts Depot',
+    name: 'Alarm Parts Distributors',
     image: maxoutLogo,
     href: 'https://apdlink.com/',
   },
