@@ -161,7 +161,7 @@ Compatibility and Part Numbers:
   },
   {
     slug: 'motion-detector-pir-433-mhz---wireless',
-    name: 'PIR 433 MHz',
+    name: 'Wall Mounted PIR 433 MHz',
     summary: 'Reliable 433 MHz PIR detection for interior coverage.',
         image: pir433Image,
     category: 'Detection',
