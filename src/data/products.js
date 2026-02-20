@@ -202,7 +202,7 @@ Part Numbers and Compatibility:
   },
   {
     slug: 'glass-break-detector--wireless',
-    name: 'Glass Break',
+    name: 'Glass Break Detector',
     summary: 'Audio pattern recognition for rapid glass break alerts.',
     image: glassBreakImage,
         category: 'Detection',
