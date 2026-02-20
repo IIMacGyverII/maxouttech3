@@ -1,23 +1,22 @@
 import { Link } from 'react-router-dom'
-import lineCardHero from '../assets/images/linecardvideo.webp'
 import lineCardPdf from '../assets/pdfs/line-card-8_1_25.pdf'
 
-const overviewItems = [
+const lineCardFeatures = [
   {
-    title: 'Door & window',
-    description: 'Mini, recessed, extended range, and shock/contact sensors.',
+    title: 'Product Families',
+    description: 'Complete overview of all MaxOut Technology sensor and detector product lines.',
   },
   {
-    title: 'Motion detection',
-    description: 'Wall and ceiling mounted PIR detectors with reliable coverage.',
+    title: 'Specifications',
+    description: 'Technical details, frequency options, and performance characteristics.',
   },
   {
-    title: 'Life safety',
-    description: 'Smoke/CO, heat, and water detection for comprehensive protection.',
+    title: 'Part Numbers',
+    description: 'Accurate SKUs and part numbers for ordering and inventory management.',
   },
   {
-    title: 'Remote control',
-    description: 'Keyfob control and panic devices for quick response.',
+    title: 'Features & Benefits',
+    description: 'Key differentiators and why MaxOut sensors outperform the competition.',
   },
 ]
 
@@ -28,38 +27,18 @@ function LineCard() {
     <>
       <MetaTags 
         title="Line Card | MaxOut Technology"
-        description="Wireless security and life-safety products for professional security integrators, dealers, and distributors. MaxOut Technology line card and product overview."
+        description="Download the MaxOut Technology line card. Complete product overview with specifications, features, and part numbers for professional security dealers and distributors."
         url="https://IIMacGyverII.github.io/maxouttech3/#/line-card"
       />
       <div className="page">
       <section className="section">
         <div className="container">
-          <p className="eyebrow">Line card overview</p>
-          <h1>Quick view of MaxOut Technology.</h1>
+          <p className="eyebrow">Line card</p>
+          <h1>MaxOut Technology Product Line Card</h1>
           <p className="lead">
-            Wireless security and life-safety sensing products for professional
-            dealers and distributors.
+            The complete guide to our wireless sensors and life-safety devices.
+            Everything you need to specify, order, and integrate MaxOut products.
           </p>
-          <div className="detail-grid" style={{ marginTop: '32px' }}>
-            <div className="detail-media">
-              <img src={lineCardHero} alt="Line card overview" />
-            </div>
-            <div>
-              <h2>Line card overview</h2>
-              <p className="lead">
-                Explore our core product families below, then request the full
-                dealer line card for specs and ordering details.
-              </p>
-              <div className="highlight-grid" style={{ marginTop: '20px' }}>
-                {overviewItems.map((item) => (
-                  <div key={item.title} className="highlight-card">
-                    <h3>{item.title}</h3>
-                    <p>{item.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -67,10 +46,30 @@ function LineCard() {
         <div className="container">
           <div className="section-head">
             <div>
-              <p className="eyebrow">Need the full line card?</p>
-              <h2>Get the latest dealer line card.</h2>
+              <h2>What's included in the line card</h2>
               <p className="lead">
-                Contact us for current availability, pricing, and onboarding.
+                The MaxOut line card provides a comprehensive overview of our complete product portfolio, with detailed specifications and ordering information.
+              </p>
+            </div>
+          </div>
+          <div className="highlight-grid">
+            {lineCardFeatures.map((feature) => (
+              <div key={feature.title} className="highlight-card">
+                <h3>{feature.title}</h3>
+                <p>{feature.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="cta-banner">
+            <div>
+              <h2>Download the MaxOut Line Card</h2>
+              <p className="lead">
+                Get the latest product specifications, part numbers, and dealer information for all MaxOut Technology wireless sensors and life-safety devices.
               </p>
             </div>
             <a
@@ -79,25 +78,36 @@ function LineCard() {
               target="_blank"
               rel="noreferrer"
             >
-              Download MaxOut Line Card
+              Download Line Card (PDF)
             </a>
-          </div>
-          <div className="cta-banner">
-            <div>
-              <h3>MaxOut Wireless Sensors are sold to professional security installation companies from an authorized MaxOut Technology Distributor.</h3>
-              <p className="lead">
-                Call <a href="tel:+17634971059">763-497-1059</a> or connect with an authorized distributor.
-              </p>
-            </div>
-            <Link className="button ghost" to="/where-to-buy">
-              Find an Authorized MaxOut Technology Distributor
-            </Link>
           </div>
         </div>
       </section>
 
-
+      <section className="section section-muted">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <h2>Ready to order?</h2>
+              <p className="lead">
+                MaxOut Technology products are available through authorized distributors serving professional security installers.
+              </p>
+            </div>
+          </div>
+          <div style={{ textAlign: 'center' }}>
+            <Link className="button ghost" to="/where-to-buy">
+              Find an Authorized Distributor
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
+    </>
+  )
+}
+
+export default LineCard
+
     </>
   )
 }
