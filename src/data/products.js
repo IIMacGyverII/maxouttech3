@@ -42,7 +42,7 @@ Compatibility and Part Numbers:
   },
   {
     slug: 'recessed-doorwindow-sensor---wireless',
-    name: 'Mini Recessed Door/Window',
+    name: 'Mini Recessed Door/Window Sensor',
     summary: 'Hidden contact for clean installations.',
     image: recessedDoorImage,
     category: 'Perimeter',
