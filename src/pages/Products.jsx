@@ -28,8 +28,8 @@ function Products() {
           <h1>Wireless sensors & life safety</h1>
           <p className="lead">
             Discover the full MaxOut Technologies lineup built for the longest
-            wireless range from the control, reliable sensor response, and the
-            longest battery life.
+            wireless range from the control, reliable response with the longest
+            battery life.
           </p>
         </div>
       </section>

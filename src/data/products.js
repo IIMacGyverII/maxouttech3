@@ -205,7 +205,7 @@ Part Numbers and Compatibility:
     name: 'Glass Break',
     summary: 'Audio pattern recognition for rapid glass break alerts.',
     image: glassBreakImage,
-    category: 'Perimeter',
+        category: 'Detection',
     description: `The Wireless Glass Break Detector is used to detect breaking glass that may result in entry - sending an alarm to the control panel. A red LED light is used to convey messages on detector status. Powered is supplied by two long-life replaceable 3-VDC, Lithium batteries.
 
 Features:
