@@ -575,6 +575,7 @@ main {
   font-size: 0.9rem;
   color: #5c6b85;
   letter-spacing: 0.02em;
+  white-space: pre-line;
 }
 
 .doc-link:hover {
