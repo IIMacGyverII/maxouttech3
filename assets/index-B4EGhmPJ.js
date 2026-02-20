@@ -66,7 +66,7 @@ Features:
 
 Compatibility and Part Numbers:
 • RF-CMDWSX-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
-• RF-CMDWSX-345-NN: 345 MHz. Honeywell® and 2GIG®`},{slug:"extreme-sensor---wireless",name:"Extreme Outdoor Door/Gate Sensor",summary:"Rugged sensor built for outdoor environments.",image:Pg,category:"Industrial",description:`The Extreme Sensor is a supervised, wireless sensor that detects the opening and closing of doors, window, gates, garage doors, etc. in extreme environment. –32°F (-35.6°C) to 120°F (49°C).
+• RF-CMDWSX-345-NN: 345 MHz. Honeywell® and 2GIG®`},{slug:"extreme-sensor---wireless",name:"Extreme Outdoor Door/Gate Sensor",summary:"Rugged sensor built for outdoor environments.",image:Pg,category:"Perimeter",description:`The Extreme Sensor is a supervised, wireless sensor that detects the opening and closing of doors, window, gates, garage doors, etc. in extreme environment. –32°F (-35.6°C) to 120°F (49°C).
 
 Developed and tested in Minnesota, US in extreme cold. Flawless RF transmission during one of the coldest weeks in Minnesota in 22 years (1/25/19-2/1/19), –32°F, with wind-chill temperatures down to –60°F! The unique design allows mounting the device outdoors with wood screws, plastic zip-ties or a combination of both. Powered by two extra long-life batteries. Available in 319.5 or 345 MHz frequencies.
 
