@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import securityDataSupplyLogo from '../assets/images/sdslogo.webp'
-import wescoLogo from '../assets/images/wescovideo.webp'
+import wescoLogo from '../assets/images/wesco.png'
 import loneStarLogo from '../assets/images/lonestar.png'
 import sssiLogo from '../assets/images/ss&si.webp'
 import maxoutLogo from '../assets/images/APDlogo_MAIN_2023_2C_1.png'
