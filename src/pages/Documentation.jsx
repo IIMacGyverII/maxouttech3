@@ -292,6 +292,38 @@ function Documentation() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <p className="eyebrow">Product data sheets</p>
+              <h2>Specs, ranges, and certifications.</h2>
+              <p className="lead">
+                Quick reference PDFs for specifying products and building quotes.
+              </p>
+            </div>
+          </div>
+          <div className="resource-grid">
+            {dataSheets.map((sheet) => (
+              <div className="resource-card" key={sheet.file}>
+                <h3>{sheet.label}</h3>
+                <a
+                  className="doc-link"
+                  href={pdfUrl(sheet.file)}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {sheet.label}
+                  {sheet.partNumber ? (
+                    <span className="doc-part-number">{sheet.partNumber}</span>
+                  ) : null}
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section section-muted">
         <div className="container">
           <div className="section-head">
@@ -324,38 +356,6 @@ function Documentation() {
                     </li>
                   ))}
                 </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <div className="section-head">
-            <div>
-              <p className="eyebrow">Product data sheets</p>
-              <h2>Specs, ranges, and certifications.</h2>
-              <p className="lead">
-                Quick reference PDFs for specifying products and building quotes.
-              </p>
-            </div>
-          </div>
-          <div className="resource-grid">
-            {dataSheets.map((sheet) => (
-              <div className="resource-card" key={sheet.file}>
-                <h3>{sheet.label}</h3>
-                <a
-                  className="doc-link"
-                  href={pdfUrl(sheet.file)}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {sheet.label}
-                  {sheet.partNumber ? (
-                    <span className="doc-part-number">{sheet.partNumber}</span>
-                  ) : null}
-                </a>
               </div>
             ))}
           </div>
