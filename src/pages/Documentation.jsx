@@ -284,9 +284,9 @@ function Documentation() {
       <section className="section">
         <div className="container">
           <p className="eyebrow">Documentation</p>
-          <h1>Installation manuals and data sheets.</h1>
+          <h1>Product datasheets and installation manuals.</h1>
           <p className="lead">
-            Download the latest manuals, product data sheets, and updates to
+            Access technical specifications, datasheets, and installation guides to
             support fast installations and confident system design.
           </p>
         </div>
