@@ -88,7 +88,7 @@ Regulatory:
 
 Part Numbers and Compatibility:
 • RF-CMDWS-OD-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
-• RF-CMDWS-OD-345-NN: 345 MHz. Honeywell®, 2GIG®`},{slug:"motion-detector,-wall-mounted-pir---wireless",name:"PIR 319 and 345 MHz",summary:"Focused PIR coverage for interior spaces.",image:iv,category:"Detection",description:`A motion sensor (passive-infrared or PIR) detects movement within a specific area by sensing the infrared energy emitted from a body as it moves across the sensor's field of view. When this motion is detected, the sensor transmits an alarm signal to the control panel. Use the motion sensor to protect locations where door/window sensors are impractical, not needed and for dual protection.
+• RF-CMDWS-OD-345-NN: 345 MHz. Honeywell®, 2GIG®`},{slug:"motion-detector,-wall-mounted-pir---wireless",name:"Wall Mounted PIR 319 and 345 MHz",summary:"Focused PIR coverage for interior spaces.",image:iv,category:"Detection",description:`A motion sensor (passive-infrared or PIR) detects movement within a specific area by sensing the infrared energy emitted from a body as it moves across the sensor's field of view. When this motion is detected, the sensor transmits an alarm signal to the control panel. Use the motion sensor to protect locations where door/window sensors are impractical, not needed and for dual protection.
 
 Features:
 • Selectable sensitivity
