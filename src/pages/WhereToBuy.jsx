@@ -58,12 +58,6 @@ function WhereToBuy() {
             We connect you with distributors that best match your
             project scope and location.
           </p>
-          <div className="section-head">
-            <div>
-              <p className="eyebrow">Authorized partners</p>
-              <h2>Featured distributors & programs</h2>
-            </div>
-          </div>
           <div className="partner-grid">
             {partnerCards.map((partner) => (
               partner.href.startsWith('http') ? (
