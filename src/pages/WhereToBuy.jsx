@@ -68,7 +68,7 @@ function WhereToBuy() {
       <section className="section">
         <div className="container">
           <p className="eyebrow">Where to buy</p>
-          <h1>Find a partner near you.</h1>
+          <h1>Find a MaxOut distributor near you.</h1>
           <p className="lead">
             We connect you with distributors that best match your
             project scope and location.
