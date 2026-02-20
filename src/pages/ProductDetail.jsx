@@ -46,6 +46,7 @@ function ProductDetail() {
             <p className="eyebrow">{product.category}</p>
             <h1>{product.name}</h1>
             <p className="lead">{product.summary}</p>
+            <p className="detail-note">Industry-leading battery life for long-term reliability.</p>
             {product.description ? (
               <div className="product-description" style={{ whiteSpace: 'pre-wrap' }}>
                 {product.description}

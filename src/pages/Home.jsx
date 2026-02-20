@@ -19,6 +19,14 @@ const highlights = [
 ]
 
 function Home() {
+  const baseFeatured = products.slice(0, 6)
+  const extraFeatured = products.find(
+    (product) => product.slug === 'motion-detector-pir-433-mhz---wireless',
+  )
+  const featuredProducts = extraFeatured && !baseFeatured.includes(extraFeatured)
+    ? [...baseFeatured, extraFeatured]
+    : baseFeatured
+
   return (
     <>
       <MetaTags 
@@ -80,7 +88,7 @@ function Home() {
             </Link>
           </div>
           <div className="product-grid">
-            {products.slice(0, 6).map((product) => (
+            {featuredProducts.map((product) => (
               <Link
                 className="product-card"
                 key={product.slug}
