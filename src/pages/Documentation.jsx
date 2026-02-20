@@ -369,7 +369,7 @@ function Documentation() {
               <p className="eyebrow">Additional resources</p>
               <h2>Line card and product updates.</h2>
               <p className="lead">
-                Marketing assets, line card downloads, and recent announcements.
+                Marketing assets, line card download, and recent announcements.
               </p>
             </div>
           </div>
