@@ -6,21 +6,6 @@ import sssiLogo from '../assets/images/sssivideo.webp'
 import maxoutLogo from '../assets/images/apdvideo.webp'
 import alarmaxLogo from '../assets/images/alarmaxlogovideo.webp'
 
-const channels = [
-  {
-    title: 'Authorized distributors',
-    text: 'Partner with nationwide distributors for rapid fulfillment.',
-  },
-  {
-    title: 'Security integrators',
-    text: 'Work with certified integrators for design and installation.',
-  },
-  {
-    title: 'OEM partnerships',
-    text: 'Build customized programs with our OEM team.',
-  },
-]
-
 const partnerCards = [
   {
     name: 'Alarmax',
@@ -73,15 +58,7 @@ function WhereToBuy() {
             We connect you with distributors that best match your
             project scope and location.
           </p>
-          <div className="highlight-grid">
-            {channels.map((channel) => (
-              <div className="highlight-card" key={channel.title}>
-                <h3>{channel.title}</h3>
-                <p>{channel.text}</p>
-              </div>
-            ))}
-          </div>
-          <div className="section-head" style={{ marginTop: '36px' }}>
+          <div className="section-head">
             <div>
               <p className="eyebrow">Authorized partners</p>
               <h2>Featured distributors & programs</h2>
