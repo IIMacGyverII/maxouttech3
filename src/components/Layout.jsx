@@ -98,6 +98,9 @@ function Layout() {
             <p className="footer-text">Saint Michael, MN, United States of America</p>
           </div>
         </div>
+        <div className="footer-copyright">
+          <p>&copy; {new Date().getFullYear()} MaxOut Technology. All rights reserved.</p>
+        </div>
       </footer>
     </div>
   )

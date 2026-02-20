@@ -604,6 +604,19 @@ main {
   color: #c3cbe0;
 }
 
+.footer-copyright {
+  border-top: 1px solid #1a2a42;
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #9ca5bc;
+}
+
+.footer-copyright p {
+  margin: 0;
+}
+
 @media (max-width: 720px) {
   .site-nav {
     gap: 8px;
