@@ -226,7 +226,7 @@ const dataSheets = [
     file: '12_rf_cpir_319_nn_pds.pdf',
   },
   {
-    label: 'Rate-of-Rise Heat Detector, 319 and 345 MHz',
+    label: 'Rate-of-Rise Heat Detector, 319 and 345 MHz + hardwired',
     partNumber: 'RF-ROR-135S-319-NN\nRF-ROR-135S-345-NN\nHD-4WDT-NN',
     file: '13_rf_ror_nn_pds.pdf',
   },
