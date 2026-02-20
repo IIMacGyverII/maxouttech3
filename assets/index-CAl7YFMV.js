@@ -24,7 +24,7 @@ Compatibility and Part Numbers:
 • RF-CMDWS-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
 • RF-CMDWS-345-NN: 345 MHz. Honeywell® and 2GIG®
 • RF-CMDWS-433-D-NN: 433 MHz. DSC®
-• CEA-RF-CMDWS-ENC-BRN-KIT: Brown sensor and magnet cover kit contains 5 each, brown: sensor covers, sensor bases, magnet cover and magnet bases.`},{slug:"recessed-doorwindow-sensor---wireless",name:"Mini Recessed Door/Window",summary:"Hidden contact for clean installations.",image:rv,category:"Perimeter",description:`The Recessed Door/Window Sensor is a supervised, wireless sensor that detects the opening and closing of doors or windows.
+• CEA-RF-CMDWS-ENC-BRN-KIT: Brown sensor and magnet cover kit contains 5 each, brown: sensor covers, sensor bases, magnet cover and magnet bases.`},{slug:"recessed-doorwindow-sensor---wireless",name:"Mini Recessed Door/Window Sensor",summary:"Hidden contact for clean installations.",image:rv,category:"Perimeter",description:`The Recessed Door/Window Sensor is a supervised, wireless sensor that detects the opening and closing of doors or windows.
 
 New, high–powered Microchip delivers exceptional range; no "dead spots" or signal drop-offs. Isolated spiral antenna provides much greater RF surface area to improve range. The antenna is mounted above the board and separated from batteries for contributing to the superior RF performance and transmission efficiency. Reduced battery energy draw—lengthens the battery life.
 
