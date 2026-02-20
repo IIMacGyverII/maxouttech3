@@ -23,6 +23,7 @@ function About() {
               protection—engineering the very products that many of the
               industry's biggest names have relied on for decades.
             </p>
+            <div style={{ height: '12px' }}></div>
             <p>
               We are the same group of dedicated RF engineers and product
               developers who helped invent and perfect modern wireless security
