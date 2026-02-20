@@ -4,7 +4,7 @@ import wescoLogo from '../assets/images/wescovideo.webp'
 import loneStarLogo from '../assets/images/lonestarvideo.webp'
 import sssiLogo from '../assets/images/ss&si.webp'
 import maxoutLogo from '../assets/images/apdvideo.webp'
-import alarmaxLogo from '../assets/images/alarmaxlogovideo.webp'
+import alarmaxLogo from '../assets/images/AlarMaxLogo-No-Contact-K.png'
 
 const partnerCards = [
   {
