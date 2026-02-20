@@ -5,8 +5,8 @@ import heroImage from '../assets/images/homeradar.webp'
 
 const highlights = [
   {
-    title: 'Secure by design',
-    text: 'Wireless sensors engineered for high reliability and low false alarms.',
+    title: '30 year history in wireless security',
+    text: 'Wireless sensors engineered and 100% tested for the highest reliability, maximum range, and the longest battery life.',
   },
   {
     title: 'Life safety ready',
