@@ -299,7 +299,7 @@ function Documentation() {
               <p className="eyebrow">Product data sheets</p>
               <h2>Specs, ranges, and certifications.</h2>
               <p className="lead">
-                Quick reference PDFs for specifying products and building quotes.
+                Quick reference guides (PDF) for specifying products.
               </p>
             </div>
           </div>
