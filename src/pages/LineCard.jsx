@@ -107,9 +107,3 @@ function LineCard() {
 }
 
 export default LineCard
-
-    </>
-  )
-}
-
-export default LineCard
