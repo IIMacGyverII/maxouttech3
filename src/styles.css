@@ -361,6 +361,9 @@ main {
 
 .product-card div {
   padding: 14px 14px 18px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 }
 
 .product-title {
@@ -382,6 +385,8 @@ main {
   color: #1a4bff;
   font-size: 0.75rem;
   font-weight: 600;
+  align-self: flex-start;
+  margin-top: auto;
 }
 
 .section-head {
