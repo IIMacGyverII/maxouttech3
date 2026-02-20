@@ -76,7 +76,7 @@ function Layout() {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
-            <p className="footer-title">MaxOut Technology</p>
+            <p className="footer-title">MaxOut&trade; Technology</p>
             <p className="footer-text">
               High-performance wireless sensors, life safety devices, and control
               solutions for residential and commercial environments.
