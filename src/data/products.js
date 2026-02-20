@@ -138,7 +138,7 @@ Part Numbers and Compatibility:
   },
   {
     slug: 'motion-detector,-wall-mounted-pir---wireless',
-    name: 'PIR 319 and 345 MHz',
+    name: 'Wall Mounted PIR 319 and 345 MHz',
     summary: 'Focused PIR coverage for interior spaces.',
     image: wallMotionImage,
     category: 'Detection',
