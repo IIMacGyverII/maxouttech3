@@ -70,7 +70,7 @@ function WhereToBuy() {
           <p className="eyebrow">Where to buy</p>
           <h1>Find a partner near you.</h1>
           <p className="lead">
-            We connect you with distributors and integrators that best match your
+            We connect you with distributors that best match your
             project scope and location.
           </p>
           <div className="highlight-grid">
