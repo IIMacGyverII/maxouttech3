@@ -51,7 +51,7 @@ Features:
 
 Compatibility and Part Numbers:
 • RF-SHK-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
-• RF-SHK-345-NN: 345 MHz. Honeywell® and 2GIG®`},{slug:"doorwindow-sensor,-extended",name:"Extended Door/Window",summary:"Door/window sensor with external contact.",image:$g,category:"Perimeter",description:`The Mini Door/Window Sensor with Extended/External Contact is a supervised, wireless sensor that detects the opening and closing of doors or windows. When activated, the sensor transmits an open (trip) or close (restore) signal to the panel. These are the signals the unit provides: supervisory, tamper and low battery (as needed). An external contact can be connected to the transmitter by feeding contact wiring through the housing.
+• RF-SHK-345-NN: 345 MHz. Honeywell® and 2GIG®`},{slug:"doorwindow-sensor,-extended",name:"Extended Door/Window Sensor",summary:"Door/window sensor with external contact.",image:$g,category:"Perimeter",description:`The Mini Door/Window Sensor with Extended/External Contact is a supervised, wireless sensor that detects the opening and closing of doors or windows. When activated, the sensor transmits an open (trip) or close (restore) signal to the panel. These are the signals the unit provides: supervisory, tamper and low battery (as needed). An external contact can be connected to the transmitter by feeding contact wiring through the housing.
 
 New, high–powered microchip delivers exceptional range; 360° with no dead spots or signal drop-offs. Patented design with an isolated antenna 1/8" above board and separated from batteries for superior RF performance and transmission efficiency. Reduced interference from metal door and window frames. Reduced battery energy draw lengthens the battery life.
 
