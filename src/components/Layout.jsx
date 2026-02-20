@@ -32,7 +32,6 @@ function Layout() {
           <div className="brand">
             <img className="brand-mark" src={logo} alt="Maxout Technology" />
             <div>
-              <p className="brand-title">Maxout Technology</p>
               <p className="brand-subtitle">Wireless Security & Life Safety Sensors and Detectors</p>
             </div>
             <Link to="/anniversary" className="brand-badge-link">
