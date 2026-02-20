@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import securityDataSupplyLogo from '../assets/images/sdslogovideo.webp'
+import securityDataSupplyLogo from '../assets/images/sdslogo.webp'
 import wescoLogo from '../assets/images/wescovideo.webp'
 import loneStarLogo from '../assets/images/lonestar.png'
 import sssiLogo from '../assets/images/ss&si.webp'
