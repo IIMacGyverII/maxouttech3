@@ -30,7 +30,6 @@ function Home() {
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">Wireless Security Platform</p>
             <h1>Modern protection for people and property.</h1>
             <p className="lead">
               Maxout Technology delivers wireless sensors and life safety devices that
@@ -50,7 +49,7 @@ function Home() {
             <div className="hero-card-content">
               <p className="hero-card-title">Total coverage</p>
               <p className="hero-card-text">
-                Indoor, perimeter, and life safety sensors designed for fast
+                Indoor, outdoor, perimeter, and life safety sensors designed for fast
                 installation and dependable performance.
               </p>
             </div>
