@@ -37,7 +37,7 @@ Features:
 
 Compatibility and Part Numbers:
 • RF-RDWS-319-NN: 319.5 MHz. UTC®, Interlogix®, GE®, ITI®, and Qolsys®
-• RF-RDWS-345-NN: 345 MHz. Honeywell® and 2GIG®`},{slug:"total-window-sensor---wireless",name:"Total Window Sensor/Shock Detector",summary:"Multi-function window protection with shock detection.",image:sv,category:"Perimeter",description:`A window sensor is great at detecting and sending an alarm signal when a contact is opened. ......but what if entry is made through smashing the window? The intruder is in the house - with no alarm signal!
+• RF-RDWS-345-NN: 345 MHz. Honeywell® and 2GIG®`},{slug:"total-window-sensor---wireless",name:"Total Window Sensor/Shock Detector",summary:"Multi-function door/window sensor with shock detection.",image:sv,category:"Perimeter",description:`A window sensor is great at detecting and sending an alarm signal when a contact is opened. ......but what if entry is made through smashing the window? The intruder is in the house - with no alarm signal!
 
 The Wireless TOTAL Window Sensor™ provides complete intrusion protection for windows. It detects both a contact opening and window impact or breaking glass. The sensor contains a reed switch for openings and a tiny piezo detection device that detects vibrations and impact when mounted on a window frame. The detection circuit can be adjusted during installation to ensure TOTAL protection with the proper sensitivity.
 
