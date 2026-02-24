@@ -296,8 +296,8 @@ function Documentation() {
         <div className="container">
           <div className="section-head">
             <div>
-              <p className="eyebrow">Product data sheets</p>
-              <h2>Specs, ranges, and certifications.</h2>
+              <p className="eyebrow">Specs, ranges, and certifications.</p>
+              <h2>Product data sheets</h2>
               <p className="lead">
                 Quick reference guides (PDF) for specifying products.
               </p>
