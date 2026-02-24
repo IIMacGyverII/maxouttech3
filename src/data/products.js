@@ -1,5 +1,5 @@
 import smokeCoImage from '../assets/images/smoke.webp'
-import doorExtendedImage from '../assets/images/door.jpg'
+import doorExtendedImage from '../assets/images/extendeddoorwindow.png'
 import tamperImage from '../assets/images/Control Panel Enclosure Tamper Switch.png'
 import extremeImage from '../assets/images/RF-CMDWS-OD-319-NN.png'
 import glassBreakImage from '../assets/images/RF-ARGB-NN.png'
