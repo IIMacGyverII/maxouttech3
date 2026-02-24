@@ -2,7 +2,8 @@ import smokeCoImage from '../assets/images/smoke.webp'
 import doorExtendedImage from '../assets/images/extendeddoorwindow.png'
 import tamperImage from '../assets/images/Control Panel Enclosure Tamper Switch.png'
 import extremeImage from '../assets/images/RF-CMDWS-OD-319-NN.png'
-import glassBreakImage from '../assets/images/RF-ARGB-NN.png'
+import glassBreakImage from '../assets/images/glassbreakvideo4.webp'
+import glassBreakProductImage from '../assets/images/RF-ARGB-NN.png'
 import keyfobControlImage from '../assets/images/RF-KEYFOB-319-NN.png'
 import keyfobPanicImage from '../assets/images/FOB Panic Button.png'
 import miniDoorWindowImage from '../assets/images/RF-CMDWS-319-NN.png'
@@ -205,6 +206,7 @@ Part Numbers and Compatibility:
     name: 'Glass Break Detector',
     summary: 'Audio pattern recognition for rapid glass break alerts.',
     image: glassBreakImage,
+    additionalImages: [glassBreakProductImage],
         category: 'Detection',
     description: `The Wireless Glass Break Detector is used to detect breaking glass that may result in entry - sending an alarm to the control panel. A red LED light is used to convey messages on detector status. Powered is supplied by two long-life replaceable 3-VDC, Lithium batteries.
 
