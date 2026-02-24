@@ -103,25 +103,64 @@ function ProductDetail() {
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             zIndex: 1000,
-            padding: '2rem',
-            cursor: 'pointer'
+            padding: '2rem'
           }}
           onClick={() => setEnlargedImage(null)}
         >
-          <img 
-            src={enlargedImage} 
-            alt="Enlarged view"
+          <div 
             style={{
-              maxWidth: '90%',
-              maxHeight: '90%',
-              objectFit: 'contain'
+              backgroundColor: 'white',
+              borderRadius: '12px',
+              boxShadow: '0 20px 60px rgba(0, 0, 0, 0.3)',
+              padding: '2rem',
+              maxWidth: '800px',
+              maxHeight: '90vh',
+              position: 'relative',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '1rem'
             }}
-          />
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setEnlargedImage(null)}
+              style={{
+                position: 'absolute',
+                top: '1rem',
+                right: '1rem',
+                background: 'rgba(0, 0, 0, 0.5)',
+                color: 'white',
+                border: 'none',
+                borderRadius: '50%',
+                width: '40px',
+                height: '40px',
+                fontSize: '24px',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 1
+              }}
+            >
+              ×
+            </button>
+            <img 
+              src={enlargedImage} 
+              alt="Enlarged view"
+              style={{
+                width: '100%',
+                height: 'auto',
+                maxHeight: 'calc(90vh - 4rem)',
+                objectFit: 'contain',
+                borderRadius: '8px'
+              }}
+            />
+          </div>
         </div>
       )}
 
