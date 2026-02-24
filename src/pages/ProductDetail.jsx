@@ -41,13 +41,6 @@ function ProductDetail() {
         <div className="container detail-grid">
           <div className="detail-media">
             <img src={product.image} alt={product.name} />
-            {product.additionalImages && product.additionalImages.length > 0 && (
-              <div style={{ marginTop: '1rem', display: 'grid', gap: '1rem' }}>
-                {product.additionalImages.map((img, index) => (
-                  <img key={index} src={img} alt={`${product.name} - view ${index + 2}`} />
-                ))}
-              </div>
-            )}
           </div>
           <div>
             <p className="eyebrow">{product.category}</p>
@@ -74,6 +67,26 @@ function ProductDetail() {
           </div>
         </div>
       </section>
+
+      {product.additionalImages && product.additionalImages.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <div className="section-head">
+              <div>
+                <p className="eyebrow">Additional Views</p>
+                <h2>Product Images</h2>
+              </div>
+            </div>
+            <div className="product-grid">
+              {product.additionalImages.map((img, index) => (
+                <div key={index} className="product-card">
+                  <img src={img} alt={`${product.name} - view ${index + 2}`} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section section-muted">
         <div className="container">
