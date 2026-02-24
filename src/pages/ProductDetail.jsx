@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { products } from '../data/products'
 import { MetaTags } from '../components/MetaTags'
@@ -5,6 +6,7 @@ import { MetaTags } from '../components/MetaTags'
 function ProductDetail() {
   const { slug } = useParams()
   const product = products.find((item) => item.slug === slug)
+  const [enlargedImage, setEnlargedImage] = useState(null)
 
   if (!product) {
     return (
@@ -79,13 +81,48 @@ function ProductDetail() {
             </div>
             <div className="product-grid">
               {product.additionalImages.map((img, index) => (
-                <div key={index} className="product-card">
+                <div 
+                  key={index} 
+                  className="product-card" 
+                  onClick={() => setEnlargedImage(img)}
+                  style={{ cursor: 'pointer' }}
+                >
                   <img src={img} alt={`${product.name} - view ${index + 2}`} />
                 </div>
               ))}
             </div>
           </div>
         </section>
+      )}
+
+      {enlargedImage && (
+        <div 
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 1000,
+            padding: '2rem',
+            cursor: 'pointer'
+          }}
+          onClick={() => setEnlargedImage(null)}
+        >
+          <img 
+            src={enlargedImage} 
+            alt="Enlarged view"
+            style={{
+              maxWidth: '90%',
+              maxHeight: '90%',
+              objectFit: 'contain'
+            }}
+          />
+        </div>
       )}
 
       <section className="section section-muted">
