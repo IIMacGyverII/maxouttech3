@@ -1,4 +1,4 @@
-import smokeCoImage from '../assets/images/smoke.webp'
+import smokeCoImage from '../assets/images/RF-APCMB-345-NN.png'
 import doorExtendedImage from '../assets/images/RF-CMDWSX-319-NN.png'
 import tamperImage from '../assets/images/SET-NN.png'
 import extremeImage from '../assets/images/RF-CMDWS-OD-319-NN.png'
