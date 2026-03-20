@@ -1,20 +1,21 @@
 import smokeCoImage from '../assets/images/smoke.webp'
-import doorExtendedImage from '../assets/images/extendeddoorwindow.png'
-import tamperImage from '../assets/images/Control Panel Enclosure Tamper Switch.png'
+import doorExtendedImage from '../assets/images/RF-CMDWSX-319-NN.png'
+import tamperImage from '../assets/images/SET-NN.png'
 import extremeImage from '../assets/images/RF-CMDWS-OD-319-NN.png'
-import glassBreakImage from '../assets/images/glassbreakvideo4.webp'
-import glassBreakProductImage from '../assets/images/RF-ARGB-NN.png'
+import glassBreakImage from '../assets/images/RF-ARGB-NN.png'
 import keyfobControlImage from '../assets/images/RF-KEYFOB-319-NN.png'
-import keyfobPanicImage from '../assets/images/FOB Panic Button.png'
+import keyfobPanicImage from '../assets/images/RF-KEYFOB-PANIC-NN.png'
 import miniDoorWindowImage from '../assets/images/RF-CMDWS-319-NN.png'
-import ceilingMotionImage from '../assets/images/RF-CPIR-319-NN_blank.png'
+import miniDoorWindowBrownImage from '../assets/images/RF-CMDWS-319-BRN-NN.png'
+import ceilingMotionImage from '../assets/images/RF-CPIR-319-NN.png'
 import wallMotionImage from '../assets/images/RF-ARPIR-319-NN.png'
 import panicButtonImage from '../assets/images/RF-PANIC-ONE-BUTTON-319-NN.png'
+import panicMountingImage from '../assets/images/RF-PANIC-ONE-BUTTON-319-NN-MOUNT.png'
 import heatDetectorImage from '../assets/images/RF-ROR-135S-319-NN.png'
 import recessedDoorImage from '../assets/images/RF-RDWS-319-NN.png'
-import totalWindowImage from '../assets/images/shock sensor.png'
+import totalWindowImage from '../assets/images/RF-SHK-319-NN.png'
 import waterSensorImage from '../assets/images/RF-WATER-319-NN.png'
-import pir433Image from '../assets/images/Wall Mounted PIR 433.png'
+import pir433Image from '../assets/images/RF-PIR-433-D-NN.png'
 
 const products = [
   {
@@ -22,6 +23,7 @@ const products = [
     name: 'Mini Door/Window Sensor',
     summary: 'Discrete contact for minimal visual impact.',
     image: miniDoorWindowImage,
+    additionalImages: [miniDoorWindowBrownImage],
     category: 'Perimeter',
     description: `The Mini Door/Window Sensor is a supervised, wireless sensor that detects the opening and closing of doors or windows.
 
@@ -206,7 +208,6 @@ Part Numbers and Compatibility:
     name: 'Glass Break Detector',
     summary: 'Audio pattern recognition for rapid glass break alerts.',
     image: glassBreakImage,
-    additionalImages: [glassBreakProductImage],
         category: 'Detection',
     description: `The Wireless Glass Break Detector is used to detect breaking glass that may result in entry - sending an alarm to the control panel. A red LED light is used to convey messages on detector status. Powered is supplied by two long-life replaceable 3-VDC, Lithium batteries.
 
@@ -349,6 +350,7 @@ Features:
     name: 'Long-Range Panic Button',
     summary: 'Instant alert activation with accessory options.',
     image: panicButtonImage,
+    additionalImages: [panicMountingImage],
     category: 'Life Safety',
     description: `The RF-Panic-One-Button-319 is a wireless hand-held device used as a portable panic or life-safety device, programmed into a 319.5 MHz control panel.
 

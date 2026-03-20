@@ -41,7 +41,7 @@ function ProductDetail() {
       <div className="page">
       <section className="section">
         <div className="container detail-grid">
-          <div className="detail-media">
+          <div className="detail-media" onClick={() => setEnlargedImage(product.image)} style={{ cursor: 'pointer' }}>
             <img src={product.image} alt={product.name} />
           </div>
           <div>
