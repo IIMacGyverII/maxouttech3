@@ -1,0 +1,4 @@
+create a promo video for the item in this picture, it is a motion detector and would be mounted on the ceiling to detect motion. it is called "Ceiling Mounted PIR (CPIR)" it operates on a frequency of 319mhz.  its part number is "RF-CPIR-319-NN" it is compatible with UTC®, Interlogix®, GE®, ITI®, and Qolsys®
+
+create a promo video for the item in this picture, it is a smoke detector and would be mounted on the ceiling to detect smoke. it is called "Combination
+Smoke, Heat, and Carbon Monoxide Detector" it operates on a frequency of 345mhz.  its part number is "RF-APCMB-345-NN"
