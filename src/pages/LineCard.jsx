@@ -33,37 +33,14 @@ function LineCard() {
       <div className="page">
       <section className="section">
         <div className="container">
-          <p className="eyebrow">Line card</p>
-          <h1>MaxOut Technology Product Line Card</h1>
+          <h2>What's included in the line card</h2>
           <p className="lead">
-            The complete guide to our wireless sensors and life-safety devices.
-            Everything you need to specify, order, and integrate MaxOut products.
+            The MaxOut line card provides a comprehensive overview of our complete product portfolio, with detailed specifications and ordering information.
           </p>
         </div>
       </section>
 
-      <section className="section section-muted">
-        <div className="container">
-          <div className="section-head">
-            <div>
-              <h2>What's included in the line card</h2>
-              <p className="lead">
-                The MaxOut line card provides a comprehensive overview of our complete product portfolio, with detailed specifications and ordering information.
-              </p>
-            </div>
-          </div>
-          <div className="highlight-grid">
-            {lineCardFeatures.map((feature) => (
-              <div key={feature.title} className="highlight-card">
-                <h3>{feature.title}</h3>
-                <p>{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
+      <section className="section" style={{ paddingTop: '0' }}>
         <div className="container">
           <div className="cta-banner">
             <div>

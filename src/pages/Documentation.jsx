@@ -123,7 +123,7 @@ const installationManuals = [
     ],
   },
   {
-    title: 'Remote Controls & Panic',
+    title: 'Wireless System Controls & Panic',
     items: [
       {
         label: 'Keyfob Control, 319 MHz',
@@ -272,6 +272,21 @@ const pressReleases = [
 
 import { MetaTags } from '../components/MetaTags'
 
+const renderLabelWithNormalFrequency = (label) => {
+  // Replace frequency numbers (319, 345, 433) with spans that have normal font weight
+  const parts = label.split(/(\b(?:319|345|433)\b)/g)
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (/\b(?:319|345|433)\b/.test(part)) {
+          return <span key={index} style={{ fontWeight: 'normal' }}>{part}</span>
+        }
+        return part
+      })}
+    </>
+  )
+}
+
 function Documentation() {
   return (
     <>
@@ -296,8 +311,7 @@ function Documentation() {
         <div className="container">
           <div className="section-head">
             <div>
-              <p className="eyebrow">Product data sheets</p>
-              <h2>Specs, ranges, and certifications.</h2>
+              <h1>Product data sheets - Specs, ranges, and certifications.</h1>
               <p className="lead">
                 Quick reference guides (PDF) for specifying products.
               </p>
@@ -306,14 +320,14 @@ function Documentation() {
           <div className="resource-grid">
             {dataSheets.map((sheet) => (
               <div className="resource-card" key={sheet.file}>
-                <h3>{sheet.label}</h3>
+                <h3>{renderLabelWithNormalFrequency(sheet.label)}</h3>
                 <a
                   className="doc-link"
                   href={pdfUrl(sheet.file)}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {sheet.label}
+                  {renderLabelWithNormalFrequency(sheet.label)}
                   {sheet.partNumber ? (
                     <span className="doc-part-number">{sheet.partNumber}</span>
                   ) : null}
@@ -328,10 +342,10 @@ function Documentation() {
         <div className="container">
           <div className="section-head">
             <div>
-              <p className="eyebrow">Installation manuals</p>
+              <h1>Installation manuals</h1>
               <h2>MaxOut Technology sensors and detectors.</h2>
               <p className="lead">
-                Select a product family to open the correct installation manual.
+                Select to access the specific product installation manual.
               </p>
             </div>
           </div>
@@ -348,7 +362,7 @@ function Documentation() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        {item.label}
+                        {renderLabelWithNormalFrequency(item.label)}
                         {item.partNumber ? (
                           <span className="doc-part-number">{item.partNumber}</span>
                         ) : null}

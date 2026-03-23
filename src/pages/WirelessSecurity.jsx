@@ -54,7 +54,7 @@ function WirelessSecurity() {
               src={rfCmdwsImage} 
               alt="MaxOut RF Sensor" 
               onClick={() => openModal(rfCmdwsImage)}
-              style={{ width: '100%', cursor: 'pointer', maxWidth: '300px' }}
+              style={{ width: '100%', cursor: 'pointer', maxWidth: '270px' }}
             />
             <img 
               src={dwBoardTopImage} 
