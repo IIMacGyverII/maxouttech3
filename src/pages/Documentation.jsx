@@ -6,57 +6,57 @@ const installationManuals = [
     title: 'Door & Window Sensors',
     items: [
       {
-        label: 'Mini Door/Window Sensor, 319 MHz',
+        label: 'Mini Door/Window Sensor 319 MHz',
         partNumber: 'RF-CMDWS-319-NN',
         file: 'a_rf_cmdws_319_nn_im.pdf',
       },
       {
-        label: 'Mini Door/Window Sensor, 345 MHz',
+        label: 'Mini Door/Window Sensor 345 MHz',
         partNumber: 'RF-CMDWS-345-NN',
         file: 'b_rf_cmdws_345_nn_im.pdf',
       },
       {
-        label: 'Mini Door/Window Sensor, 433 MHz',
+        label: 'Mini Door/Window Sensor 433 MHz',
         partNumber: 'RF-CMDWS-433-NN',
         file: 'c_rf_cmdws_433_d_nn_im.pdf',
       },
       {
-        label: 'Mini Door/Window Sensor, Extended 319 MHz',
+        label: 'Mini Door/Window Sensor Extended 319 MHz',
         partNumber: 'RF-CMDWSX-319',
         file: 'd_rf_cmdwsx_319_nn_im.pdf',
       },
       {
-        label: 'Mini Door/Window Sensor, Extended 345 MHz',
+        label: 'Mini Door/Window Sensor Extended 345 MHz',
         partNumber: 'RF-CMDWSX-345',
         file: 'e_rf_cmdwsx_345_nn_im.pdf',
       },
       {
-        label: 'TOTAL Window Sensor, 319 MHz',
+        label: 'TOTAL Window Sensor 319 MHz',
         partNumber: 'RF-SHK-319-NN',
         file: 'h_rf_shk_319_nn_im-(2).pdf',
       },
       {
-        label: 'TOTAL Window Sensor, 345 MHz',
+        label: 'TOTAL Window Sensor 345 MHz',
         partNumber: 'RF-SHK-345-NN',
         file: 'i_rf_shk_345_nn_im.pdf',
       },
       {
-        label: 'Recessed Door/Window Sensor, 319 MHz',
+        label: 'Recessed Door/Window Sensor 319 MHz',
         partNumber: 'RF-RDWS-319-NN',
         file: 'f_rf_rdws_319_nn_im.pdf',
       },
       {
-        label: 'Recessed Door/Window Sensor, 345 MHz',
+        label: 'Recessed Door/Window Sensor 345 MHz',
         partNumber: 'RF-RDWS-345-NN',
         file: 'g_rf_rdws_345_nn_-im.pdf',
       },
       {
-        label: 'Extreme Sensor, Outdoor Door/Gate, 319 MHz',
+        label: 'Extreme Sensor Outdoor Door/Gate 319 MHz',
         partNumber: 'RF-CMDWS-OD-319-NN',
         file: 'k_rf_cmdws_od_-319_nn_im.pdf',
       },
       {
-        label: 'Extreme Sensor, Outdoor Door/Gate, 345 MHz',
+        label: 'Extreme Sensor Outdoor Door/Gate 345 MHz',
         partNumber: 'RF-CMDWS-OD-345-NN',
         file: 'j_rf_cmdws_od_-345_nn_im.pdf',
       },
@@ -66,27 +66,27 @@ const installationManuals = [
     title: 'Motion & Glass Break',
     items: [
       {
-        label: 'Wall Mounted PIR, 319 MHz',
+        label: 'Wall Mounted PIR 319 MHz',
         partNumber: 'RF-ARPIR-319-NN',
         file: 'q_rf_arpir_319_nn_im.pdf',
       },
       {
-        label: 'Wall Mounted PIR, 345 MHz',
+        label: 'Wall Mounted PIR 345 MHz',
         partNumber: 'RF-ARPIR-345-NN',
         file: 'r_rf_arpir_345_nn_im.pdf',
       },
       {
-        label: 'Wall Mounted PIR, 433 MHz',
+        label: 'Wall Mounted PIR 433 MHz',
         partNumber: 'RF-PIR-433-D-NN',
         file: 's_rf_pir_433_d_nn_im.pdf',
       },
       {
-        label: 'Ceiling Mounted PIR, 319 MHz',
+        label: 'Ceiling Mounted PIR 319 MHz',
         partNumber: 'RF-CPIR-319-NN',
         file: 't_rf_cpir_319_nn_im.pdf',
       },
       {
-        label: 'Glass Break Detector, 319 MHz',
+        label: 'Glass Break Detector 319 MHz',
         partNumber: 'RF-ARGB-319-NN',
         file: 'l_rf_argb_319_nn_im.pdf',
       },
@@ -96,27 +96,27 @@ const installationManuals = [
     title: 'Life Safety & Environmental',
     items: [
       {
-        label: 'Water Detector, 319 MHz',
+        label: 'Water Detector 319 MHz',
         partNumber: 'RF-WATER-319-NN',
         file: 'y_rf_water_319_nn_im.pdf',
       },
       {
-        label: 'Water Detector, 345 MHz',
+        label: 'Water Detector 345 MHz',
         partNumber: 'RF-WATER-345-NN',
         file: 'z_rf_water_345_nn_im.pdf',
       },
       {
-        label: 'Smoke, Heat, CO Detector, 345 MHz',
+        label: 'Smoke Heat CO Detector 345 MHz',
         partNumber: 'RF-APCMB-345-NN',
         file: 'x_rf_apcmb_345_nn_im.pdf',
       },
       {
-        label: 'Rate-of-Rise Heat Detector, 319 MHz',
+        label: 'Rate-of-Rise Heat Detector 319 MHz',
         partNumber: 'RF-ROR-135S-319-NN',
         file: 'u_rf_ror-135s-319_nn_im.pdf',
       },
       {
-        label: 'Rate-of-Rise Heat Detector, 345 MHz',
+        label: 'Rate-of-Rise Heat Detector 345 MHz',
         partNumber: 'RF-ROR-135S-345-NN',
         file: 'v_rf_ror_135_345_nn_-im.pdf',
       },
@@ -126,27 +126,27 @@ const installationManuals = [
     title: 'Wireless System Controls & Panic',
     items: [
       {
-        label: 'Keyfob Control, 319 MHz',
+        label: 'Keyfob Control 319 MHz',
         partNumber: 'RF-KEYFOB-319-NN',
         file: 'm_rf_keyfob_319_nn_im.pdf',
       },
       {
-        label: 'Keyfob Panic, 319 MHz',
+        label: 'Keyfob Panic 319 MHz',
         partNumber: 'RF-FOB-PANIC-319-NN',
         file: 'n_rf_fob_panic_319_nn-im.pdf',
       },
       {
-        label: 'Keyfob Panic, 345 MHz',
+        label: 'Keyfob Panic 345 MHz',
         partNumber: 'RF-FOB-PANIC-345-NN',
         file: 'o_rf_fob_panic_345_nn_im.pdf',
       },
       {
-        label: 'Keyfob Panic, 345 MHz (Rev 4/5/2022)',
+        label: 'Keyfob Panic 345 MHz (Rev 4/5/2022)',
         partNumber: 'RF-FOB-PANIC-345-NN',
         file: 'rf-fob-panic-345-nn-installation-manual--rev-4-5_13_2022.pdf',
       },
       {
-        label: 'Long-Range Panic, 319 MHz',
+        label: 'Long-Range Panic 319 MHz',
         partNumber: 'RF-PANIC-ONE-BUTTON-319-NN',
         file: 'p_rf_panic_one_button_319_nn_im.pdf',
       },
@@ -166,67 +166,67 @@ const installationManuals = [
 
 const dataSheets = [
   {
-    label: 'Mini Door/Window Sensor, 319, 345, and 433 MHz',
+    label: 'Mini Door/Window Sensor 319 345 and 433 MHz',
     partNumber: 'RF-CMDWS-319-NN\nRF-CMDWS-345-NN\nRF-CMDWS-433-D-NN',
     file: '1_rf_cmdws_nn_pds.pdf',
   },
   {
-    label: 'Mini Door/Window Sensor, Extended, 319 and 345 MHz',
+    label: 'Mini Door/Window Sensor Extended 319 and 345 MHz',
     partNumber: 'RF-CMDWSX-319-NN\nRF-CMDWSX-345-NN',
     file: '2_rf_cmdwsx_nn_pds.pdf',
   },
   {
-    label: 'Recessed Door/Window Sensor, 319 and 345 MHz',
+    label: 'Recessed Door/Window Sensor 319 and 345 MHz',
     partNumber: 'RF-RDWS-319-NN\nRF-RDWS-345-NN',
     file: '3_rf_rdws_nn_pds.pdf',
   },
   {
-    label: 'TOTAL Window Sensor, 319 and 345 MHz',
+    label: 'TOTAL Window Sensor 319 and 345 MHz',
     partNumber: 'RF-SHK-319-NN\nRF-SHK-345-NN',
     file: '4_rf_shk_nn_pds.pdf',
   },
   {
-    label: 'Extreme Sensor, Outdoor, 319 and 345 MHz',
+    label: 'Extreme Sensor Outdoor 319 and 345 MHz',
     partNumber: 'RF-CMDWS-OD-319-NN\nRF-CMDWS-OD-345-NN',
     file: '5_rf_cmdws_od_pds.pdf',
   },
   {
-    label: 'Glass Break Detector, 319 MHz',
+    label: 'Glass Break Detector 319 MHz',
     partNumber: 'RF-ARGB-319-NN',
     file: '6_rf_argb_319_nn_pds.pdf',
   },
   {
-    label: 'Keyfob Control, 319 MHz',
+    label: 'Keyfob Control 319 MHz',
     partNumber: 'RF-KEYFOB-319-NN',
     file: '7_rf_keyfob_319_nn_pds.pdf',
   },
   {
-    label: 'Keyfob Panic, 319 and 345 MHz',
+    label: 'Keyfob Panic 319 and 345 MHz',
     partNumber: 'RF-FOB-PANIC-319-NN\nRF-FOB-PANIC-345-NN',
     file: '8_rf_fob_panic_nn-pds.pdf',
   },
   {
-    label: 'Long-Range Panic, 319 MHz',
+    label: 'Long-Range Panic 319 MHz',
     partNumber: 'RF-PANIC-ONE-BUTTON-319-NN',
     file: '9_rf_panic_one_button_319_nn_pds.pdf',
   },
   {
-    label: 'Wall Mounted PIR, 319 and 345 MHz',
+    label: 'Wall Mounted PIR 319 and 345 MHz',
     partNumber: 'RF-ARPIR-319-NN\nRF-ARPIR-345-NN',
     file: '10_rf_arpir_nn_-pds.pdf',
   },
   {
-    label: 'Wall Mounted PIR, 433 MHz',
+    label: 'Wall Mounted PIR 433 MHz',
     partNumber: 'RF-PIR-433-D-NN',
     file: '11_rf_pir_433_nn-pds.pdf',
   },
   {
-    label: 'Ceiling Mounted PIR, 319 MHz',
+    label: 'Ceiling Mounted PIR 319 MHz',
     partNumber: 'RF-CPIR-319-NN',
     file: '12_rf_cpir_319_nn_pds.pdf',
   },
   {
-    label: 'Rate-of-Rise Heat Detector, 319 and 345 MHz + hardwired',
+    label: 'Rate-of-Rise Heat Detector 319 and 345 MHz + hardwired',
     partNumber: 'RF-ROR-135S-319-NN\nRF-ROR-135S-345-NN\nHD-4WDT-NN',
     file: '13_rf_ror_nn_pds.pdf',
   },
@@ -236,7 +236,7 @@ const dataSheets = [
     file: '14_rf_apcmb_345_nn_pds.pdf',
   },
   {
-    label: 'Water Detector, 319 and 345 MHz',
+    label: 'Water Detector 319 and 345 MHz',
     partNumber: 'RF-WATER-319-NN\nRF-WATER-345-NN',
     file: '15_rf_water_nn_pds.pdf',
   },
