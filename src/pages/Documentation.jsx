@@ -287,6 +287,20 @@ const renderLabelWithNormalFrequency = (label) => {
   )
 }
 
+const renderLabelWithoutFrequency = (label) => {
+  // Remove frequency information entirely for black text headings
+  return label
+    .replace(/\s*,?\s*\b(319|345|433)\b\s*MHz\b/g, '')
+    .replace(/\s*(319|345|433)\b\s*/g, ' ')
+    .replace(/\s*,\s*and\s*\b(319|345|433)\b/gi, '')
+    .replace(/\s*and\s*\b(319|345|433)\b/gi, '')
+    .replace(/,\s*and\s*$/i, '')
+    .replace(/\s*,\s*$/g, '')
+    .replace(/\s*and\s*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
 function Documentation() {
   return (
     <>
@@ -320,7 +334,7 @@ function Documentation() {
           <div className="resource-grid">
             {dataSheets.map((sheet) => (
               <div className="resource-card" key={sheet.file}>
-                <h3>{renderLabelWithNormalFrequency(sheet.label)}</h3>
+                <h3>{renderLabelWithoutFrequency(sheet.label)}</h3>
                 <a
                   className="doc-link"
                   href={pdfUrl(sheet.file)}
