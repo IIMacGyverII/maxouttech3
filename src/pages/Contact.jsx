@@ -6,7 +6,7 @@ function Contact() {
       <MetaTags 
         title="Contact | MaxOut Technology"
         description="Get in touch with our sales and support teams. Questions about product compatibility, installation, or finding an authorized distributor? Contact MaxOut Technology."
-        url="https://IIMacGyverII.github.io/maxouttech3/#/contact"
+        url="https://maxouttech.com/#/contact"
       />
       <div className="page">
       <section className="section">

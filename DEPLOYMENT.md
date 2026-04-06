@@ -1,7 +1,7 @@
 # MaxOut Technology - Professional Website Deployment Guide
 
 ## Current Status ✅
-Your website is now optimized for search engines and ready for professional deployment!
+Your website is now optimized for search engines and ready for professional deployment to maxouttech.com!
 
 ### SEO Optimizations Completed
 
@@ -14,85 +14,130 @@ Your website is now optimized for search engines and ready for professional depl
 
 #### 2. **Search Engine Configuration**
 - ✅ `robots.txt` - Instructs search engines how to crawl the site
-- ✅ `sitemap.xml` - Updated with all pages and current dates (April 2026)
+- ✅ `sitemap.xml` - Updated with all pages and configured for maxouttech.com
 - ✅ Structured data (Schema.org JSON-LD) for Organization and WebSite
 - ✅ Keywords and meta descriptions on all pages
 
 #### 3. **Performance & Technical**
 - ✅ Favicon and app icons (192x192, 512x512)
 - ✅ Web app manifest for mobile "Add to Home Screen"
-- ✅ `.nojekyll` file for proper GitHub Pages SPA handling
 - ✅ All images have descriptive alt text for accessibility and SEO
 - ✅ Preconnect hints for faster loading
 - ✅ Responsive design for all devices
+- ✅ Optimized for root domain deployment
 
-#### 4. **Domain Configuration**
-- ✅ `CNAME` file created for custom domain: **maxouttech.com**
+#### 4. **URLs Configured**
+- ✅ All URLs updated to **https://maxouttech.com/**
+- ✅ Sitemap configured for production domain
+- ✅ Vite config set to root path deployment
 
 ---
 
 ## 🚀 Deploying to maxouttech.com
 
-### Step 1: Configure DNS Records
-Log into your domain registrar (where you purchased maxouttech.com) and add these DNS records:
+### Building for Production
 
-#### Option A: Using CNAME (Recommended)
-```
-Type: CNAME
-Name: www
-Value: IIMacGyverII.github.io
-TTL: 3600
-```
+Run the build command to generate optimized production files:
 
-```
-Type: A (for root domain)
-Name: @
-Value: 185.199.108.153
-Value: 185.199.109.153
-Value: 185.199.110.153
-Value: 185.199.111.153
-TTL: 3600
-```
-
-#### Option B: Using Only WWW
-If you only want `www.maxouttech.com`:
-```
-Type: CNAME
-Name: www
-Value: IIMacGyverII.github.io
-TTL: 3600
-```
-
-### Step 2: Configure GitHub Pages
-1. Go to your GitHub repository: `https://github.com/IIMacGyverII/maxouttech3`
-2. Click **Settings** → **Pages**
-3. Under "Custom domain", enter: `maxouttech.com`
-4. Click **Save**
-5. Wait for DNS check to complete (may take 24-48 hours)
-6. ✅ Enable "Enforce HTTPS" once DNS is verified
-
-### Step 3: Update Site URLs (Required!)
-Once your custom domain is working, update these URLs in your code:
-
-**Files to update:**
-1. `index.html` - Update all URLs from `https://IIMacGyverII.github.io/maxouttech3/` to `https://maxouttech.com/`
-2. `public/sitemap.xml` - Update all `<loc>` URLs
-3. `public/robots.txt` - Update Sitemap URL
-4. `src/components/MetaTags.jsx` - Update default URL
-5. All page components with MetaTags - Update url prop
-
-**Search & Replace:**
-- Find: `https://IIMacGyverII.github.io/maxouttech3/`
-- Replace: `https://maxouttech.com/`
-- Also: `https://IIMacGyverII.github.io/maxouttech3/#/` → `https://maxouttech.com/#/`
-
-### Step 4: Deploy Updated URLs
-After updating URLs:
 ```bash
-git add .
-git commit -m "Update URLs to custom domain maxouttech.com"
-git push
-npm run deploy
+npm run build
+```
+
+This creates a `dist/` folder with all your optimized website files.
+
+---
+
+### Upload Options
+
+#### Option 1: FTP/SFTP Upload
+1. Connect to your web hosting via FTP client (FileZilla, Cyberduck, etc.)
+2. Upload all contents of the `dist/` folder to your website root directory (usually `public_html/` or `www/`)
+3. Ensure all files maintain their structure:
+   - index.html (root)
+   - assets/ folder
+   - All PDF files
+   - favicon and icon files
+   - robots.txt
+   - sitemap.xml
+
+#### Option 2: cPanel File Manager
+1. Log into your hosting cPanel
+2. Navigate to File Manager
+3. Go to public_html (or your domain root)
+4. Upload all files from `dist/` folder
+5. Extract if uploaded as ZIP
+
+#### Option 3: SSH/Command Line
+```bash
+# Build the site
+npm run build
+
+# Upload via SCP (replace with your credentials)
+scp -r dist/* user@maxouttech.com:/path/to/public_html/
+```
+
+---
+
+### Important Deployment Checklist
+
+Before uploading:
+- [x] ✅ Run `npm run build` to create production files
+- [ ] ⬜ Test the build locally: `npm run preview`
+- [ ] ⬜ Verify all PDFs and images are included in dist/
+- [ ] ⬜ Check that robots.txt and sitemap.xml are present
+- [ ] ⬜ Ensure .htaccess is configured (see below)
+
+After uploading:
+- [ ] ⬜ Test homepage loads: https://maxouttech.com
+- [ ] ⬜ Test navigation between pages
+- [ ] ⬜ Verify PDFs download correctly
+- [ ] ⬜ Check mobile responsiveness
+- [ ] ⬜ Test social media sharing (Open Graph tags)
+- [ ] ⬜ Submit sitemap to Google Search Console
+- [ ] ⬜ Submit sitemap to Bing Webmaster Tools
+
+---
+
+### Required: .htaccess Configuration
+
+Since this is a Single Page Application (SPA) using React Router with hash routing, create a `.htaccess` file in your root directory:
+
+```apache
+# Enable rewrite engine
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # Redirect HTTP to HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  
+  # Serve existing files/directories
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Route all other requests to index.html
+  RewriteRule . / [L]
+</IfModule>
+
+# Compression for faster loading
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
 ```
 
 ---
@@ -114,13 +159,6 @@ npm run deploy
 - ✅ Semantic HTML structure
 - ✅ Accessibility features (alt text, ARIA labels)
 
-### Off-Page SEO (Next Steps)
-- 📝 Submit sitemap to Google Search Console
-- 📝 Submit sitemap to Bing Webmaster Tools
-- 📝 Register with Google My Business
-- 📝 Build quality backlinks
-- 📝 Social media presence
-
 ---
 
 ## 🔍 Submit to Search Engines
@@ -128,7 +166,7 @@ npm run deploy
 ### Google Search Console
 1. Go to: https://search.google.com/search-console
 2. Add property: `maxouttech.com`
-3. Verify ownership (use DNS TXT record method)
+3. Verify ownership (upload HTML file or use DNS method)
 4. Submit sitemap: `https://maxouttech.com/sitemap.xml`
 
 ### Bing Webmaster Tools
@@ -139,10 +177,10 @@ npm run deploy
 
 ---
 
-## 📈 Analytics Setup (Optional)
+## 📈 Optional: Analytics Setup
 
 ### Google Analytics 4
-Add to `index.html` before `</head>`:
+Add to `index.html` before `</head>` (before deployment):
 
 ```html
 <!-- Google tag (gtag.js) -->
@@ -159,29 +197,10 @@ Replace `G-XXXXXXXXXX` with your Google Analytics Measurement ID.
 
 ---
 
-## ✅ Pre-Launch Checklist
-
-- [x] All images have alt text
-- [x] Meta tags on all pages
-- [x] robots.txt configured
-- [x] sitemap.xml up to date
-- [x] Favicon and icons present
-- [x] Mobile responsive
-- [x] HTTPS ready
-- [x] CNAME file created
-- [ ] DNS records configured
-- [ ] Custom domain verified in GitHub
-- [ ] URLs updated to custom domain
-- [ ] Submitted to Google Search Console
-- [ ] Submitted to Bing Webmaster Tools
-- [ ] Analytics installed (optional)
-
----
-
 ## 🎯 SEO Keywords Targeted
 
 - Wireless security sensors
-- Door/window sensors
+- Door/window sensors  
 - Motion detectors (PIR)
 - Glass break detectors
 - Life safety devices
@@ -195,10 +214,22 @@ Replace `G-XXXXXXXXXX` with your Google Analytics Measurement ID.
 
 ---
 
+## 🔄 Site Updates Workflow
+
+When you make changes to the site:
+
+1. Make your edits to source files
+2. Test locally: `npm run dev`
+3. Build for production: `npm run build`
+4. Upload new `dist/` folder contents via FTP/cPanel
+5. Clear browser cache and test live site
+
+---
+
 ## 📞 Support
 
-For questions about deployment or SEO optimization, refer to:
-- GitHub Pages Docs: https://docs.github.com/en/pages
+For questions about deployment:
+- Web Hosting Support: Contact your hosting provider
 - Search Console Help: https://support.google.com/webmasters
 - Bing Webmaster Help: https://www.bing.com/webmasters/help
 

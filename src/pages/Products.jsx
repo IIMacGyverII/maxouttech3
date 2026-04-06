@@ -19,7 +19,7 @@ function Products() {
       <MetaTags 
         title="Products | MaxOut Technology"
         description="Browse our complete catalog of wireless sensors, motion detectors, glass break sensors, life safety devices, and control solutions. Find the right product for your installation."
-        url="https://IIMacGyverII.github.io/maxouttech3/#/products"
+        url="https://maxouttech.com/#/products"
       />
       <div className="page">
       <section className="section">

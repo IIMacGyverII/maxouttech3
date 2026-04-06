@@ -28,7 +28,7 @@ function LineCard() {
       <MetaTags 
         title="Line Card | MaxOut Technology"
         description="Download the MaxOut Technology line card. Complete product overview with specifications, features, and part numbers for professional security dealers and distributors."
-        url="https://IIMacGyverII.github.io/maxouttech3/#/line-card"
+        url="https://maxouttech.com/#/line-card"
       />
       <div className="page">
       <section className="section">

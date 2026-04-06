@@ -307,7 +307,7 @@ function Documentation() {
       <MetaTags 
         title="Documentation | MaxOut Technology"
         description="Access installation manuals, technical datasheets, and product documentation for all MaxOut Technology wireless sensors and life safety devices."
-        url="https://IIMacGyverII.github.io/maxouttech3/#/documentation"
+        url="https://maxouttech.com/#/documentation"
       />
       <div className="page">
       <section className="section">

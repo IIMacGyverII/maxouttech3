@@ -6,7 +6,7 @@ function About() {
       <MetaTags 
         title="About MaxOut Technology"
         description="Learn about MaxOut Technology's 30+ years of experience as a trusted innovator in wireless security and life-safety sensing solutions for residential and commercial environments."
-        url="https://IIMacGyverII.github.io/maxouttech3/#/about"
+        url="https://maxouttech.com/#/about"
       />
       <div className="page">
       <section className="section">

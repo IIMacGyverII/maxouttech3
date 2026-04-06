@@ -47,7 +47,7 @@ function WhereToBuy() {
       <MetaTags 
         title="Where to Buy | MaxOut Technology"
         description="Find an authorized MaxOut Technology distributor. We work with trusted partners to bring our wireless sensors and life safety devices to security professionals nationwide."
-        url="https://IIMacGyverII.github.io/maxouttech3/#/where-to-buy"
+        url="https://maxouttech.com/#/where-to-buy"
       />
       <div className="page">
       <section className="section">

@@ -14,8 +14,8 @@ import { useEffect } from 'react'
 export function MetaTags({ 
   title = 'MaxOut Technology | Wireless Security Sensors & Life Safety Devices',
   description = 'High-performance wireless security sensors, life safety detectors, and control solutions for residential and commercial properties.',
-  image = 'https://IIMacGyverII.github.io/maxouttech3/favicon-32x32.png',
-  url = 'https://IIMacGyverII.github.io/maxouttech3/',
+  image = 'https://maxouttech.com/favicon-32x32.png',
+  url = 'https://maxouttech.com/',
   type = 'website'
 }) {
   useEffect(() => {

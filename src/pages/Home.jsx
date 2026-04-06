@@ -8,7 +8,7 @@ function Home() {
       <MetaTags 
         title="MaxOut Technology | Wireless Security Sensors & Life Safety Devices"
         description="High-performance wireless security sensors, life safety detectors, and control solutions for residential and commercial properties. Explore our complete product lineup."
-        url="https://IIMacGyverII.github.io/maxouttech3/"
+        url="https://maxouttech.com/"
       />
       <div className="page">
         <section className="section" style={{ paddingBottom: '0.5rem' }}>
