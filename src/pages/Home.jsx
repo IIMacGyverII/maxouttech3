@@ -11,42 +11,64 @@ function Home() {
         url="https://IIMacGyverII.github.io/maxouttech3/"
       />
       <div className="page">
-        <section className="section" style={{ paddingTop: '20px' }}>
+        <section className="section" style={{ paddingBottom: '0.5rem' }}>
           <div className="container">
-            <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-              <h1 style={{ color: '#d00000', fontSize: '1.8rem', marginBottom: '8px' }}>
-                Wireless Security and Life-Safety Sensing Products
-              </h1>
-              <p className="lead" style={{ fontWeight: '600', margin: '0' }}>
-                Professional Sensing Products for Professional Security Dealers
-              </p>
-            </div>
+            <p className="eyebrow">Professional Security Solutions</p>
+            <h1 style={{ color: '#d00000' }}>
+              Wireless Security and Life-Safety Sensing Products
+            </h1>
+            <p className="lead">
+              Professional Sensing Products for Professional Security Dealers
+            </p>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', marginBottom: '20px', alignItems: 'flex-end', maxWidth: '700px', margin: '0 auto 20px auto' }}>
-              <div style={{ textAlign: 'center' }}>
+            <div style={{ 
+              display: 'grid', 
+              gridTemplateColumns: '1fr 1fr', 
+              gap: '4rem', 
+              maxWidth: '750px', 
+              margin: '1rem auto 0',
+              alignItems: 'flex-end' 
+            }}>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <img 
                   src={heroImage} 
                   alt="Protecting homes" 
-                  style={{ width: '280px', height: '200px', objectFit: 'cover', borderRadius: '12px', marginBottom: '8px', display: 'block', margin: '0 auto 8px auto' }}
+                  style={{ 
+                    width: '100%', 
+                    maxWidth: '280px',
+                    height: '200px', 
+                    objectFit: 'cover', 
+                    borderRadius: '12px'
+                  }}
                 />
-                <p style={{ fontWeight: '600', margin: '0', fontSize: '1rem' }}>Protecting Homes</p>
+                <p style={{ margin: '0.25rem 0 0 0' }}><strong>Protecting Homes</strong></p>
               </div>
-              <div style={{ textAlign: 'center' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <img 
                   src={businessImage} 
                   alt="Protecting business" 
-                  style={{ width: '280px', height: '200px', objectFit: 'cover', borderRadius: '12px', marginBottom: '8px', display: 'block', margin: '0 auto 8px auto' }}
+                  style={{ 
+                    width: '100%', 
+                    maxWidth: '280px',
+                    height: '200px', 
+                    objectFit: 'cover', 
+                    borderRadius: '12px'
+                  }}
                 />
-                <p style={{ fontWeight: '600', margin: '0', fontSize: '1rem' }}>Protecting Business</p>
+                <p style={{ margin: '0.25rem 0 0 0' }}><strong>Protecting Business</strong></p>
               </div>
             </div>
+          </div>
+        </section>
 
-            <p className="lead" style={{ fontWeight: '600', textAlign: 'center', marginBottom: '16px' }}>
+        <section className="section" style={{ paddingTop: '0.5rem' }}>
+          <div className="container">
+            <p className="lead">
               Wireless security sensors, detectors, and life-safety products look and appear to be the same. Unless 
               the wireless sensors and detectors are engineered with MaxOut™ Technology!
             </p>
 
-            <p style={{ marginBottom: '16px' }}>
+            <p>
               MaxOut™ Technology is different—a difference you can see in the precision that goes into the PC board and 
               components with attention to the smallest detail. Details that are so important to reliable performance of 
               security and life safety! MaxOut™ high performance sensors deliver the maximum FCC allowable output to 
@@ -54,27 +76,27 @@ function Home() {
               performance, range, and reliability.
             </p>
 
-            <h2 style={{ textAlign: 'center', marginBottom: '16px' }}>MaxOut™ Technology Is:</h2>
+            <h2>MaxOut™ Technology Is:</h2>
 
-            <p style={{ marginBottom: '12px' }}>
+            <p>
               <strong>Experienced</strong> - The new wireless sensor company that has been making wireless security 
               products for over 30 years. You can trust the sensors, detectors, and life safety devices engineered and 
               designed by the people who invented and perfected wireless security systems; MaxOut™ Technology.
             </p>
 
-            <p style={{ marginBottom: '12px' }}>
+            <p>
               <strong>A Proven Security Innovator</strong> - Continuous Product Improvement on our security products 
               has resulted in 9 U.S. Patents and groundbreaking development of encrypted security systems.
             </p>
 
-            <p style={{ marginBottom: '16px' }}>
+            <p>
               <strong>A Trusted Engineering and Development Partner</strong> - MaxOut™ Technology has been behind 
               many of the security products used for residential, commercial, and high security today.
             </p>
 
-            <p style={{ fontWeight: '600', marginBottom: '8px' }}>
+            <p><strong>
               Engineered to outperform and outlast other wireless sensors with:
-            </p>
+            </strong></p>
 
             <ul className="detail-list">
               <li>Patented, raised antenna design for maximum RF transmission.</li>

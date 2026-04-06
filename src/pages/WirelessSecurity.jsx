@@ -54,19 +54,19 @@ function WirelessSecurity() {
               src={rfCmdwsImage} 
               alt="MaxOut RF Sensor" 
               onClick={() => openModal(rfCmdwsImage)}
-              style={{ width: '100%', cursor: 'pointer', maxWidth: '270px' }}
+              style={{ width: '100%', cursor: 'pointer', maxWidth: '189px' }}
             />
             <img 
               src={dwBoardTopImage} 
               alt="Door/Window Sensor Circuit Board Top" 
               onClick={() => openModal(dwBoardTopImage)}
-              style={{ width: '100%', cursor: 'pointer', maxWidth: '300px' }}
+              style={{ width: '100%', cursor: 'pointer', maxWidth: '210px' }}
             />
             <img 
               src={dwBoardBottomImage} 
               alt="Door/Window Sensor Circuit Board Bottom" 
               onClick={() => openModal(dwBoardBottomImage)}
-              style={{ width: '100%', cursor: 'pointer', maxWidth: '300px' }}
+              style={{ width: '100%', cursor: 'pointer', maxWidth: '210px' }}
             />
           </div>
         </div>

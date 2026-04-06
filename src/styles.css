@@ -357,6 +357,7 @@ main {
   height: 140px;
   object-fit: contain;
   background: #fff;
+  padding: 16px;
 }
 
 .product-card div {
